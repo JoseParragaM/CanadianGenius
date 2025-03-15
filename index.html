@@ -1,11 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CanadianGenius</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canadian Genius</title>
+    <link rel="icon" type="image/x-icon" href="/media/favicon.ico">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            background-color: lightblue;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        .top-left-button {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .logo {
+            max-width: 200px;
+            margin: 20px 0;
+        }
+        .buttons-container {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .buttons-container button {
+            padding: 10px 20px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+    </style>
 </head>
 <body>
-  <p>Hello CanadianGenius</p>
+    <button class="top-left-button">Scoreboard</button>
+    <img src="/media/logo.jpeg" alt="Logo" class="logo">
+    <div class="buttons-container">
+        <button>History</button>
+        <button>Food</button>
+        <button>Sports</button>
+        <button>Places</button>
+        <button>Art</button>
+        <button>Festival Dates Common Activities</button>
+    </div>
 </body>
 </html>
