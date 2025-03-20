@@ -6,26 +6,31 @@
     <title>Quiz Page</title>
 </head>
 <body>
-    <h1> Canada Genius</h1>
-    <p> Timer </p>
-    <p> Name of the player</p>
-    <p> Explore Canada through quizzes!</p>
-    <h2> Question 1</h2>
-    <p>What is the capital city of Canada?</p>
-        <ul>   
-            <li><input type="checkbox" id="Answer1">
-                <label for="Answer"> Toronto</label><br></li>
-            <li><input type="checkbox" id="Answer2">
-                <label for="Answer"> Vancouver</label><br></li>
-            <li> <input type="checkbox" id="Answer3">
-                <label for="Answer"> Ottawa</label><br></li>
-            <li><input type="checkbox" id="Answer4">
-                <label for="Answer"> Montreal</label><br></li>
-        </ul>
-    <button type="submit"> Previous </button>
-    <button type="submit"> Next </button>
+    <h1>Canada Genius</h1>
+    <div id="time">00:00:00</div>
+    <p>Name of the player</p>
+    <p>Explore Canada through quizzes!</p>
+
+    <h2 id="questionTitle">Question 1</h2>
+    <ul id="optionsList">   
+        <li><input type="checkbox" id="Answer1">
+            <label for="Answer1"> Toronto</label></li>
+        <li><input type="checkbox" id="Answer2">
+            <label for="Answer2"> Vancouver</label></li>
+        <li><input type="checkbox" id="Answer3">
+            <label for="Answer3"> Ottawa</label></li>
+        <li><input type="checkbox" id="Answer4">
+            <label for="Answer4"> Montreal</label></li>
+    </ul>
+
+    <button type="button" id="Previous">Previous</button>
+    <button type="button" id="Next">Next</button>
+    <button type="button" id="Finish">Finish</button>
+
+    <footer>
+        <p>Canadian Genius is a fun and simple web game where you can test and improve your knowledge about Canada.</p>
+    </footer>
+
+    <script src="/scripts/quiz.js"></script>
 </body>
-<footer>
-    <p>Canadian Genius is a fun and simple web game where you can test and improve your knowledge about Canada.</p>
-</footer>
 </html>
