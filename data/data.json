@@ -1,816 +1,1520 @@
 {
   "history": [
     {
+      "id": "question-1",
       "textQuestion": "Which is the oldest city in Canada?",
-      "options": ["Quebec", "Montreal", "Toronto", "Vancouver"],
-      "answer": "Quebec",
-      "explanation": "Quebec is the oldest city in Canada, founded in 1608 by Samuel de Champlain. Its historical significance lies in its key role in the French colonization of North America."
+      "options": [
+        { "id": "option-1-1", "text": "Quebec" },
+        { "id": "option-1-2", "text": "Montreal" },
+        { "id": "option-1-3", "text": "Toronto" },
+        { "id": "option-1-4", "text": "Vancouver" }
+      ],
+      "answer": { "id": "answer-1", "text": "Quebec" },
+      "explanation": {
+        "id": "explanation-1",
+        "text": "Quebec is the oldest city in Canada, founded in 1608 by Samuel de Champlain. Its historical significance lies in its key role in the French colonization of North America."
+      }
     },
     {
+      "id": "question-2",
       "textQuestion": "Who was the first European explorer to reach Canada?",
-      "options": ["Quebec", "Montreal", "Toronto", "Vancouver"],
-      "answer": "Quebec",
-      "explanation": "Quebec is the oldest city in Canada, founded in 1608 by Samuel de Champlain. Its historical significance lies in its key role in the French colonization of North America."
+      "options": [
+        { "id": "option-2-1", "text": "Quebec" },
+        { "id": "option-2-2", "text": "Montreal" },
+        { "id": "option-2-3", "text": "Toronto" },
+        { "id": "option-2-4", "text": "Vancouver" }
+      ],
+      "answer": { "id": "answer-2", "text": "Quebec" },
+      "explanation": {
+        "id": "explanation-2",
+        "text": "Quebec is the oldest city in Canada, founded in 1608 by Samuel de Champlain. Its historical significance lies in its key role in the French colonization of North America."
+      }
     },
     {
+      "id": "question-3",
       "textQuestion": "What was a key event for Canada's expansion in the 19th century?",
       "options": [
-        "War of 1812",
-        " Treaty of Versailles",
-        "U.S. War of Independence",
-        "Incorporation of Vancouver"
+        { "id": "option-3-1", "text": "War of 1812" },
+        { "id": "option-3-2", "text": "Treaty of Versailles" },
+        { "id": "option-3-3", "text": "U.S. War of Independence" },
+        { "id": "option-3-4", "text": "Incorporation of Vancouver" }
       ],
-      "answer": "Incorporation of Vancouver",
-      "explanation": "The incorporation of Vancouver in 1886 was a significant event in Canada's westward expansion. As the first mayor, Malcolm A. MacLean played a role in establishing the city, which grew rapidly due to its strategic location and connection to the Canadian Pacific Railway."
+      "answer": { "id": "answer-3", "text": "Incorporation of Vancouver" },
+      "explanation": {
+        "id": "explanation-3",
+        "text": "The incorporation of Vancouver in 1886 was a significant event in Canada's westward expansion. As the first mayor, Malcolm A. MacLean played a role in establishing the city, which grew rapidly due to its strategic location and connection to the Canadian Pacific Railway."
+      }
     },
     {
+      "id": "question-4",
       "textQuestion": "In what year was a well-known Canadian landmark built to attract tourism and showcase innovation?",
-      "options": ["1970", "1977", "1969", "1971"],
-      "answer": "1977",
-      "explanation": "The Gastown Steam Clock, built in 1977, is one example of a Canadian landmark designed to attract tourists and highlight unique technology. Such projects have played a role in revitalizing historic areas and promoting Canada's cultural and technological heritage."
-    },
-    {
-      "textQuestion": "WWho is a notable Canadian watchmaker known for designing public clocks?",
       "options": [
-        "Raymond Saunders",
-        "John Harrison",
-        "Christiaan Huygens",
-        "Carole Forestier"
+        { "id": "option-4-1", "text": "1970" },
+        { "id": "option-4-2", "text": "1977" },
+        { "id": "option-4-3", "text": "1969" },
+        { "id": "option-4-4", "text": "1971" }
       ],
-      "answer": "Raymond Saunders",
-      "explanation": "Raymond Saunders was the watchmaker who designed and built the Gastown Steam Clock in 1977. He was responsible for its intricate clockwork and steam-powered mechanism."
+      "answer": { "id": "answer-4", "text": "1977" },
+      "explanation": {
+        "id": "explanation-4",
+        "text": "The Gastown Steam Clock, built in 1977, is one example of a Canadian landmark designed to attract tourists and highlight unique technology. Such projects have played a role in revitalizing historic areas and promoting Canada's cultural and technological heritage."
+      }
     },
     {
+      "id": "question-5",
+      "textQuestion": "Who is a notable Canadian watchmaker known for designing public clocks?",
+      "options": [
+        { "id": "option-5-1", "text": "Raymond Saunders" },
+        { "id": "option-5-2", "text": "John Harrison" },
+        { "id": "option-5-3", "text": "Christiaan Huygens" },
+        { "id": "option-5-4", "text": "Carole Forestier" }
+      ],
+      "answer": { "id": "answer-5", "text": "Raymond Saunders" },
+      "explanation": {
+        "id": "explanation-5",
+        "text": "Raymond Saunders was the watchmaker who designed and built the Gastown Steam Clock in 1977. He was responsible for its intricate clockwork and steam-powered mechanism."
+      }
+    },
+    {
+      "id": "question-6",
       "textQuestion": "In which war did Canada make its most significant contribution?",
-      "options": ["Korean War", "World War 1", "World war 2", "Vietnam War"],
-      "answer": "World War 1",
-      "explanation": "Canada made a significant contribution to World War I, both militarily and economically. Canadian troops played a crucial role in key battles such as Vimy Ridge, Passchendaele, and the Hundred Days Offensive, earning international recognition for their bravery and effectiveness. Canada's efforts helped shape its national identity and establish it as an independent force on the world stage."
+      "options": [
+        { "id": "option-6-1", "text": "Korean War" },
+        { "id": "option-6-2", "text": "World War 1" },
+        { "id": "option-6-3", "text": "World War 2" },
+        { "id": "option-6-4", "text": "Vietnam War" }
+      ],
+      "answer": { "id": "answer-6", "text": "World War 1" },
+      "explanation": {
+        "id": "explanation-6",
+        "text": "Canada made a significant contribution to World War I, both militarily and economically. Canadian troops played a crucial role in key battles such as Vimy Ridge, Passchendaele, and the Hundred Days Offensive, earning international recognition for their bravery and effectiveness. Canada's efforts helped shape its national identity and establish it as an independent force on the world stage."
+      }
     },
     {
+      "id": "question-7",
       "textQuestion": "In which Canadian city was a famous sushi dish, the California Roll, invented?",
-      "options": ["Toronto", "Montreal", "Vancouver", "Calgary"],
-      "answer": "Vancouver",
-      "explanation": "The California Roll, a popular sushi dish, was invented in Vancouver in the 1970s by chef Hidekazu Tojo. He modified traditional sushi by using avocado and crab, adapting it to North American tastes. This innovation helped popularize sushi in Canada and beyond."
+      "options": [
+        { "id": "option-7-1", "text": "Toronto" },
+        { "id": "option-7-2", "text": "Montreal" },
+        { "id": "option-7-3", "text": "Vancouver" },
+        { "id": "option-7-4", "text": "Calgary" }
+      ],
+      "answer": { "id": "answer-7", "text": "Vancouver" },
+      "explanation": {
+        "id": "explanation-7",
+        "text": "The California Roll, a popular sushi dish, was invented in Vancouver in the 1970s by chef Hidekazu Tojo. He modified traditional sushi by using avocado and crab, adapting it to North American tastes. This innovation helped popularize sushi in Canada and beyond."
+      }
     },
     {
+      "id": "question-8",
       "textQuestion": "What was the first hospital established in Canada?",
       "options": [
-        "St. Paul's Hospital",
-        "Toronto General Hospital",
-        "Hôtel-Dieu de Québec",
-        "Vancouver General Hospital"
+        { "id": "option-8-1", "text": "St. Paul's Hospital" },
+        { "id": "option-8-2", "text": "Toronto General Hospital" },
+        { "id": "option-8-3", "text": "Hôtel-Dieu de Québec" },
+        { "id": "option-8-4", "text": "Vancouver General Hospital" }
       ],
-      "answer": "Hôtel-Dieu de Québec",
-      "explanation": "Hôtel-Dieu de Québec, founded in 1639 by the Augustinian nuns, was the first hospital in Canada. It played a crucial role in providing medical care to settlers and Indigenous peoples, marking the beginning of organized healthcare in the country."
+      "answer": { "id": "answer-8", "text": "Hôtel-Dieu de Québec" },
+      "explanation": {
+        "id": "explanation-8",
+        "text": "Hôtel-Dieu de Québec, founded in 1639 by the Augustinian nuns, was the first hospital in Canada. It played a crucial role in providing medical care to settlers and Indigenous peoples, marking the beginning of organized healthcare in the country."
+      }
     },
     {
+      "id": "question-9",
       "textQuestion": "What is the date when Canada became a self-governing country?",
-      "options": ["1497", "1867", "1776", "1812"],
-      "answer": "1867",
-      "explanation": "Canada became a self-governing country on July 1, 1867, through the confederation of the original provinces of Ontario, Quebec, New Brunswick, and Nova Scotia. This date is celebrated annually as Canada Day and marks the beginning of Canada's path toward full independence."
+      "options": [
+        { "id": "option-9-1", "text": "1497" },
+        { "id": "option-9-2", "text": "1867" },
+        { "id": "option-9-3", "text": "1776" },
+        { "id": "option-9-4", "text": "1812" }
+      ],
+      "answer": { "id": "answer-9", "text": "1867" },
+      "explanation": {
+        "id": "explanation-9",
+        "text": "Canada became a self-governing country on July 1, 1867, through the confederation of the original provinces of Ontario, Quebec, New Brunswick, and Nova Scotia. This date is celebrated annually as Canada Day and marks the beginning of Canada's path toward full independence."
+      }
     },
     {
+      "id": "question-10",
       "textQuestion": "What is the oldest building in Canada?",
       "options": [
-        "Fortress of Louisbourg",
-        "Quebec City's Château Frontenac",
-        "St. John's Basilica",
-        "Oldest House in Toronto"
+        { "id": "option-10-1", "text": "Fortress of Louisbourg" },
+        { "id": "option-10-2", "text": "Quebec City's Château Frontenac" },
+        { "id": "option-10-3", "text": "St. John's Basilica" },
+        { "id": "option-10-4", "text": "Oldest House in Toronto" }
       ],
-      "answer": "Fortress of Louisbourg",
-      "explanation": "The Fortress of Louisbourg in Nova Scotia is considered one of Canada's oldest and most significant historic sites. Originally built in the early 1700s, it was a French fortified town and now serves as a national historic site, showcasing the history of early colonial Canada."
+      "answer": { "id": "answer-10", "text": "Fortress of Louisbourg" },
+      "explanation": {
+        "id": "explanation-10",
+        "text": "The Fortress of Louisbourg in Nova Scotia is considered one of Canada's oldest and most significant historic sites. Originally built in the early 1700s, it was a French fortified town and now serves as a national historic site, showcasing the history of early colonial Canada."
+      }
     },
     {
+      "id": "question-11",
       "textQuestion": "Which historical park in Canada is known for its size and cultural significance?",
       "options": [
-        "Stanley Park (Vancouver)",
-        "Banff National Park (Alberta)",
-        "Gros Morne National Park (Newfoundland and Labrador)",
-        "Niagara Parks (Ontario)"
+        { "id": "option-11-1", "text": "Stanley Park (Vancouver)" },
+        { "id": "option-11-2", "text": "Banff National Park (Alberta)" },
+        {
+          "id": "option-11-3",
+          "text": "Gros Morne National Park (Newfoundland and Labrador)"
+        },
+        { "id": "option-11-4", "text": "Niagara Parks (Ontario)" }
       ],
-      "answer": "Banff National Park",
-      "explanation": "Banff National Park, established in 1885, is one of Canada's most historically significant and largest national parks. Covering over 6,600 square kilometers (660,000 hectares), it is renowned for its stunning natural beauty, cultural importance, and role in Canada's early conservation efforts. The park continues to attract millions of visitors each year and plays a key role in Canada's tourism and environmental conservation."
+      "answer": { "id": "answer-11", "text": "Banff National Park" },
+      "explanation": {
+        "id": "explanation-11",
+        "text": "Banff National Park, established in 1885, is one of Canada's most historically significant and largest national parks. Covering over 6,600 square kilometers (660,000 hectares), it is renowned for its stunning natural beauty, cultural importance, and role in Canada's early conservation efforts. The park continues to attract millions of visitors each year and plays a key role in Canada's tourism and environmental conservation."
+      }
     },
     {
+      "id": "question-12",
       "textQuestion": "What was one of the most important historical deals in Canada's development?",
       "options": [
-        "The Treaty of Paris (1763)",
-        "The British North America Act (1867)",
-        "The National Policy (1879)",
-        "The Canadian Pacific Railway Agreement (1881)"
+        { "id": "option-12-1", "text": "The Treaty of Paris (1763)" },
+        { "id": "option-12-2", "text": "The British North America Act (1867)" },
+        { "id": "option-12-3", "text": "The National Policy (1879)" },
+        {
+          "id": "option-12-4",
+          "text": "The Canadian Pacific Railway Agreement (1881)"
+        }
       ],
-      "answer": "The Canadian Pacific Railway Agreement (1881)",
-      "explanation": "The Canadian Pacific Railway Agreement in 1881 was a crucial moment in Canada’s history, as it laid the groundwork for the completion of the transcontinental railroad. This agreement, linking eastern Canada to the Pacific coast, played a vital role in the country’s expansion, economic development, and the unification of its provinces. The railway was essential for the growth of Canada and its ability to function as a cohesive nation."
+      "answer": {
+        "id": "answer-12",
+        "text": "The Canadian Pacific Railway Agreement (1881)"
+      },
+      "explanation": {
+        "id": "explanation-12",
+        "text": "The Canadian Pacific Railway Agreement in 1881 was a crucial moment in Canada’s history, as it laid the groundwork for the completion of the transcontinental railroad. This agreement, linking eastern Canada to the Pacific coast, played a vital role in the country’s expansion, economic development, and the unification of its provinces. The railway was essential for the growth of Canada and its ability to function as a cohesive nation."
+      }
     },
     {
+      "id": "question-13",
       "textQuestion": "In what year was the first permanent European settlement established in Canada?",
-      "options": ["1534", "1608", "1670", "1750"],
-      "answer": "1608",
-      "explanation": "The first permanent European settlement in Canada was established in 1608 when Samuel de Champlain founded Quebec City. This marked a pivotal moment in Canadian history, as it laid the foundation for French colonization and the development of Canada’s early colonial economy. Quebec City remains one of the oldest European settlements in North America."
+      "options": [
+        { "id": "option-13-1", "text": "1534" },
+        { "id": "option-13-2", "text": "1608" },
+        { "id": "option-13-3", "text": "1670" },
+        { "id": "option-13-4", "text": "1750" }
+      ],
+      "answer": { "id": "answer-13", "text": "1608" },
+      "explanation": {
+        "id": "explanation-13",
+        "text": "The first permanent European settlement in Canada was established in 1608 when Samuel de Champlain founded Quebec City. This marked a pivotal moment in Canadian history, as it laid the foundation for French colonization and the development of Canada’s early colonial economy. Quebec City remains one of the oldest European settlements in North America."
+      }
     },
     {
+      "id": "question-14",
       "textQuestion": "Which historical Canadian landmark is known for its vast size and national significance?",
       "options": [
-        "Banff National Park (Alberta)",
-        "The Rideau Canal (Ontario)",
-        "Cape Breton Highlands National Park (Nova Scotia)",
-        "St. Lawrence River"
+        { "id": "option-14-1", "text": "Banff National Park (Alberta)" },
+        { "id": "option-14-2", "text": "The Rideau Canal (Ontario)" },
+        {
+          "id": "option-14-3",
+          "text": "Cape Breton Highlands National Park (Nova Scotia)"
+        },
+        { "id": "option-14-4", "text": "St. Lawrence River" }
       ],
-      "answer": "The Rideau Canal (Ontario)",
-      "explanation": "The Rideau Canal, completed in 1832, is a historical Canadian landmark with great national significance. Stretching over 202 kilometers (125 miles), it connects Ottawa to Lake Ontario and the St. Lawrence River. The canal played a crucial role in the defense and transportation of goods in early Canadian history and was designated a UNESCO World Heritage Site in 2007, highlighting its historical and engineering importance."
+      "answer": { "id": "answer-14", "text": "The Rideau Canal (Ontario)" },
+      "explanation": {
+        "id": "explanation-14",
+        "text": "The Rideau Canal, completed in 1832, is a historical Canadian landmark with great national significance. Stretching over 202 kilometers (125 miles), it connects Ottawa to Lake Ontario and the St. Lawrence River. The canal played a crucial role in the defense and transportation of goods in early Canadian history and was designated a UNESCO World Heritage Site in 2007, highlighting its historical and engineering importance."
+      }
     },
     {
+      "id": "question-15",
       "textQuestion": "Which early European explorer was among the first to map parts of Canada's coastline?",
       "options": [
-        "Samuel de Champlain",
-        "Samuel de Champlain",
-        "José María Narváez",
-        "Henry Hudson"
+        { "id": "option-15-1", "text": "Samuel de Champlain" },
+        { "id": "option-15-2", "text": "Samuel de Champlain" },
+        { "id": "option-15-3", "text": "José María Narváez" },
+        { "id": "option-15-4", "text": "Henry Hudson" }
       ],
-      "answer": "Jacques Cartier",
-      "explanation": "Jacques Cartier, a French explorer, was one of the first Europeans to map parts of Canada’s coastline in the 16th century. His expeditions in 1534-1542 along the Gulf of St. Lawrence were crucial in laying the foundations for French exploration and settlement in what would become New France. His efforts in charting the region helped establish Canada's early European history."
+      "answer": { "id": "answer-15", "text": "Jacques Cartier" },
+      "explanation": {
+        "id": "explanation-15",
+        "text": "Jacques Cartier, a French explorer, was one of the first Europeans to map parts of Canada’s coastline in the 16th century. His expeditions in 1534-1542 along the Gulf of St. Lawrence were crucial in laying the foundations for French exploration and settlement in what would become New France. His efforts in charting the region helped establish Canada's early European history."
+      }
     }
   ],
 
   "Sports": [
     {
-      "textQuestion": "What sport is considered one of the most popular and historically significant in Canada?",
-      "options": ["Ice hockey", "Lacrosse", "Basketball", "Soccer"],
-      "answer": "Ice hockey",
-      "explanation": "Ice hockey is widely regarded as Canada's national sport and holds great historical significance. It became popular in the late 19th century and has since developed into a major part of Canada's cultural identity. The country has produced numerous legendary players and remains a dominant force in international competitions such as the NHL and the Winter Olympics."
-    },
-    {
-      "textQuestion": "Which Canadian sports team is internationally recognized and has a rich history?",
+      "id": "sport-1",
+      "textQuestion": {
+        "id": "sport-1-question",
+        "text": "What sport is considered one of the most popular and historically significant in Canada?"
+      },
       "options": [
-        "Toronto Raptors",
-        "Vancouver Canucks",
-        " Montreal Canadiens",
-        "Calgary Flames"
+        { "id": "sport-1-option-1", "text": "Ice hockey" },
+        { "id": "sport-1-option-2", "text": "Lacrosse" },
+        { "id": "sport-1-option-3", "text": "Basketball" },
+        { "id": "sport-1-option-4", "text": "Soccer" }
       ],
-      "answer": "Montreal Canadiens",
-      "explanation": "The Montreal Canadiens, one of the oldest and most successful teams in the National Hockey League (NHL), are internationally recognized. Founded in 1909, the team has won 24 Stanley Cups, the most in NHL history. Their legacy in Canadian hockey and global sports culture is a significant part of Canada's sports history."
+      "answer": { "id": "sport-1-answer", "text": "Ice hockey" },
+      "explanation": {
+        "id": "sport-1-explanation",
+        "text": "Ice hockey is widely regarded as Canada's national sport and holds great historical significance. It became popular in the late 19th century and has since developed into a major part of Canada's cultural identity. The country has produced numerous legendary players and remains a dominant force in international competitions such as the NHL and the Winter Olympics."
+      }
     },
     {
-      "textQuestion": "Which Canadian sports team has the largest fanbase across the country?",
+      "id": "sport-2",
+      "textQuestion": {
+        "id": "sport-2-question",
+        "text": "Which Canadian sports team is internationally recognized and has a rich history?"
+      },
       "options": [
-        "Toronto Maple Leafs (NHL)",
-        "Montreal Canadiens (NHL)",
-        "Vancouver Canucks (NHL)",
-        "Toronto Raptors (NBA)"
+        { "id": "sport-2-option-1", "text": "Toronto Raptors" },
+        { "id": "sport-2-option-2", "text": "Vancouver Canucks" },
+        { "id": "sport-2-option-3", "text": "Montreal Canadiens" },
+        { "id": "sport-2-option-4", "text": "Calgary Flames" }
       ],
-      "answer": "Toronto Maple Leafs (NHL)",
-      "explanation": "The Toronto Maple Leafs, one of the oldest and most successful hockey teams in Canada, have one of the largest fanbases across the country. Hockey is Canada's national sport, and teams like the Maple Leafs and Montreal Canadiens have a deep historical and cultural connection with fans nationwide, making them central to Canada's sports landscape."
+      "answer": { "id": "sport-2-answer", "text": "Montreal Canadiens" },
+      "explanation": {
+        "id": "sport-2-explanation",
+        "text": "The Montreal Canadiens, one of the oldest and most successful teams in the National Hockey League (NHL), are internationally recognized. Founded in 1909, the team has won 24 Stanley Cups, the most in NHL history. Their legacy in Canadian hockey and global sports culture is a significant part of Canada's sports history."
+      }
     },
     {
-      "textQuestion": "Which Canadian city is home to an NBA team?",
-      "options": ["Vancouver", "Toronto", "Montreal", "Calgary"],
-      "answer": "Toronto",
-      "explanation": "Toronto is home to the Toronto Raptors, Canada's only NBA team. The Raptors are a significant part of Canadian sports culture and have had a strong impact on the popularity of basketball across the country. In the past, Vancouver also had an NBA team, the Vancouver Grizzlies, before the franchise relocated to Memphis in 2001."
-    },
-    {
-      "textQuestion": "How many Canadian Championships has the Vancouver Whitecaps?",
-      "options": ["4", "5", "3", "6"],
-      "answer": "4",
-      "explanation": "The Vancouver Whitecaps have won four Canadian Championships in these years: 2015,2022,2023 and 2024."
-    },
-    {
-      "textQuestion": "Which sport is considered Canada's national winter sport?",
-      "options": ["Ice Hockey", "Lacrosse", "Curling", "Skiing"],
-      "answer": "Ice hockey",
-      "explanation": "Ice hockey is widely considered Canada's national winter sport. The sport has deep historical roots in the country, with the first organized games played in the 19th century"
-    },
-    {
-      "textQuestion": "Which sport is considered Canada's national summer sport?",
-      "options": ["Lacrosse", "Baseball", "Soccer", "Rugby"],
-      "answer": "Lacrosse",
-      "explanation": " Historically, lacrosse was an outdoor game played by Indigenous peoples during the warmer months, when the weather was suitable for outdoor activities. The game was often played in the summer to take advantage of the longer daylight hours and milder temperatures."
-    },
-    {
-      "textQuestion": "Since when Lacrosse is considering a national sport?",
-      "options": ["1870", "1859", "1840", "1860"],
-      "answer": "1859",
-      "explanation": "Lacrosse has been Canada's national sport since 1859 due to its deep Indigenous roots. Indigenous peoples played the game long before European settlers, and its formal organization in the 19th century highlights its cultural significance to Canada."
-    },
-    {
-      "textQuestion": "Which combat sport is popular in Canada and has produced numerous world-renowned athletes?",
-      "options": ["Boxing", "Mix Martial Arts(MMA)", "Wrestling", "Judo"],
-      "answer": "Boxing",
-      "explanation": "Boxing is a well-known combat sport in Canada, with the country having produced several world-class athletes. Notable Canadian boxers include George Chuvalo, who was a heavyweight contender, and Lennox Lewis, who became the undisputed heavyweight champion."
-    },
-    {
-      "textQuestion": "Which stadium has the largest seating capacity in Canada?",
+      "id": "sport-3",
+      "textQuestion": {
+        "id": "sport-3-question",
+        "text": "Which Canadian sports team has the largest fanbase across the country?"
+      },
       "options": [
-        "Rogers Centre (Toronto)",
-        "Commonwealth Stadium (Edmonton)",
-        "BC Place Stadium (Vancouver)",
-        "TD Place Stadium (Ottawa)"
+        { "id": "sport-3-option-1", "text": "Toronto Maple Leafs (NHL)" },
+        { "id": "sport-3-option-2", "text": "Montreal Canadiens (NHL)" },
+        { "id": "sport-3-option-3", "text": "Vancouver Canucks (NHL)" },
+        { "id": "sport-3-option-4", "text": "Toronto Raptors (NBA)" }
       ],
-      "answer": "BC Place Stadium",
-      "explanation": "BC Place Stadium in Vancouver has the largest seating capacity in Canada, with a capacity of over 54,000 for sports events. It hosts a wide range of sporting events, including football, soccer, and rugby, as well as concerts and other large-scale entertainment events."
+      "answer": { "id": "sport-3-answer", "text": "Toronto Maple Leafs (NHL)" },
+      "explanation": {
+        "id": "sport-3-explanation",
+        "text": "The Toronto Maple Leafs, one of the oldest and most successful hockey teams in Canada, have one of the largest fanbases across the country. Hockey is Canada's national sport, and teams like the Maple Leafs and Montreal Canadiens have a deep historical and cultural connection with fans nationwide, making them central to Canada's sports landscape."
+      }
     },
     {
-      "textQuestion": "Which Canadian city is home to the NHL team, the Montreal Canadiens?",
-      "options": ["Vancouver", "Ottawa", "Montreal", "Calgary"],
-      "answer": "Montreal",
-      "explanation": "The Montreal Canadiens, one of the most successful and iconic teams in the National Hockey League (NHL), are based in Montreal, Quebec. Founded in 1909, the Canadiens have a rich history and have won the most Stanley Cup championships in NHL history, making them a central part of Canada's hockey culture."
-    },
-    {
-      "textQuestion": "Which Canadian city is known for often hosting the annual Grey Cup, Canada's premier football championship?",
-      "options": ["Montreal", "Calgary", "Toronto", "Winnipeg"],
-      "answer": "Winnipeg",
-      "explanation": "The Grey Cup, Canada's top professional football championship, is hosted annually in various cities, with Winnipeg frequently hosting the event. It is a major sporting occasion that unites fans and athletes across Canada."
-    },
-    {
-      "textQuestion": "Which Canadian martial artist is best known in Canada?",
+      "id": "sport-4",
+      "textQuestion": {
+        "id": "sport-4-question",
+        "text": "Which Canadian city is home to an NBA team?"
+      },
       "options": [
-        "Georges St-Pierre",
-        "Rory MacDonald",
-        "Patrick Côté",
-        "Carlos Newton"
+        { "id": "sport-4-option-1", "text": "Vancouver" },
+        { "id": "sport-4-option-2", "text": "Toronto" },
+        { "id": "sport-4-option-3", "text": "Montreal" },
+        { "id": "sport-4-option-4", "text": "Calgary" }
       ],
-      "answer": "Georges St-Pierre",
-      "explanation": "Georges St-Pierre is Canada's most famous martial artist, considered one of the greatest MMA fighters of all time. A former UFC welterweight and middleweight champion, he is known for his skill, sportsmanship, and dominance in the octagon."
+      "answer": { "id": "sport-4-answer", "text": "Toronto" },
+      "explanation": {
+        "id": "sport-4-explanation",
+        "text": "Toronto is home to the Toronto Raptors, Canada's only NBA team. The Raptors are a significant part of Canadian sports culture and have had a strong impact on the popularity of basketball across the country. In the past, Vancouver also had an NBA team, the Vancouver Grizzlies, before the franchise relocated to Memphis in 2001."
+      }
     },
     {
-      "textQuestion": "Which female canadian athlete is recognized worldwide in soccer?",
+      "id": "sport-5",
+      "textQuestion": {
+        "id": "sport-5-question",
+        "text": "How many Canadian Championships has the Vancouver Whitecaps?"
+      },
       "options": [
-        "Christine Sinclair",
-        "Alphonso Davies",
-        "Dwayne De Rosario",
-        "Julian De Guzman"
+        { "id": "sport-5-option-1", "text": "4" },
+        { "id": "sport-5-option-2", "text": "5" },
+        { "id": "sport-5-option-3", "text": "3" },
+        { "id": "sport-5-option-4", "text": "6" }
       ],
-      "answer": "Christine Sinclair",
-      "explanation": "She is considered one of the greatest female soccer players of all time, holding the record for the most international goals scored by any player, male or female, in the history of international soccer."
+      "answer": { "id": "sport-5-answer", "text": "4" },
+      "explanation": {
+        "id": "sport-5-explanation",
+        "text": "The Vancouver Whitecaps have won four Canadian Championships in these years: 2015,2022,2023 and 2024."
+      }
     },
     {
-      "textQuestion": "Has Canada ever won the Davis Cup, the prestigious World Cup of tennis?",
-      "options": ["Yes", "No"],
-      "answer": "Yes",
-      "explanation": "Yes, Canada has won the Davis Cup.This victory was significant as it was Canada's first time winning the prestigious tournament, with the team led by notable players such as Felix Auger-Aliassime and Denis Shapovalov."
+      "id": "sport-6",
+      "textQuestion": {
+        "id": "sport-6-question",
+        "text": "Which sport is considered Canada's national winter sport?"
+      },
+      "options": [
+        { "id": "sport-6-option-1", "text": "Ice Hockey" },
+        { "id": "sport-6-option-2", "text": "Lacrosse" },
+        { "id": "sport-6-option-3", "text": "Curling" },
+        { "id": "sport-6-option-4", "text": "Skiing" }
+      ],
+      "answer": { "id": "sport-6-answer", "text": "Ice hockey" },
+      "explanation": {
+        "id": "sport-6-explanation",
+        "text": "Ice hockey is widely considered Canada's national winter sport. The sport has deep historical roots in the country, with the first organized games played in the 19th century"
+      }
+    },
+    {
+      "id": "sport-7",
+      "textQuestion": {
+        "id": "sport-7-question",
+        "text": "Which sport is considered Canada's national summer sport?"
+      },
+      "options": [
+        { "id": "sport-7-option-1", "text": "Lacrosse" },
+        { "id": "sport-7-option-2", "text": "Baseball" },
+        { "id": "sport-7-option-3", "text": "Soccer" },
+        { "id": "sport-7-option-4", "text": "Rugby" }
+      ],
+      "answer": { "id": "sport-7-answer", "text": "Lacrosse" },
+      "explanation": {
+        "id": "sport-7-explanation",
+        "text": "Historically, lacrosse was an outdoor game played by Indigenous peoples during the warmer months, when the weather was suitable for outdoor activities. The game was often played in the summer to take advantage of the longer daylight hours and milder temperatures."
+      }
+    },
+    {
+      "id": "sport-8",
+      "textQuestion": {
+        "id": "sport-8-question",
+        "text": "Since when Lacrosse is considering a national sport?"
+      },
+      "options": [
+        { "id": "sport-8-option-1", "text": "1870" },
+        { "id": "sport-8-option-2", "text": "1859" },
+        { "id": "sport-8-option-3", "text": "1840" },
+        { "id": "sport-8-option-4", "text": "1860" }
+      ],
+      "answer": { "id": "sport-8-answer", "text": "1859" },
+      "explanation": {
+        "id": "sport-8-explanation",
+        "text": "Lacrosse has been Canada's national sport since 1859 due to its deep Indigenous roots. Indigenous peoples played the game long before European settlers, and its formal organization in the 19th century highlights its cultural significance to Canada."
+      }
+    },
+    {
+      "id": "sport-9",
+      "textQuestion": {
+        "id": "sport-9-question",
+        "text": "Which combat sport is popular in Canada and has produced numerous world-renowned athletes?"
+      },
+      "options": [
+        { "id": "sport-9-option-1", "text": "Boxing" },
+        { "id": "sport-9-option-2", "text": "Mix Martial Arts(MMA)" },
+        { "id": "sport-9-option-3", "text": "Wrestling" },
+        { "id": "sport-9-option-4", "text": "Judo" }
+      ],
+      "answer": { "id": "sport-9-answer", "text": "Boxing" },
+      "explanation": {
+        "id": "sport-9-explanation",
+        "text": "Boxing is a well-known combat sport in Canada, with the country having produced several world-class athletes. Notable Canadian boxers include George Chuvalo, who was a heavyweight contender, and Lennox Lewis, who became the undisputed heavyweight champion."
+      }
+    },
+    {
+      "id": "sport-10",
+      "textQuestion": {
+        "id": "sport-10-question",
+        "text": "Which stadium has the largest seating capacity in Canada?"
+      },
+      "options": [
+        { "id": "sport-10-option-1", "text": "Rogers Centre (Toronto)" },
+        {
+          "id": "sport-10-option-2",
+          "text": "Commonwealth Stadium (Edmonton)"
+        },
+        { "id": "sport-10-option-3", "text": "BC Place Stadium (Vancouver)" },
+        { "id": "sport-10-option-4", "text": "TD Place Stadium (Ottawa)" }
+      ],
+      "answer": { "id": "sport-10-answer", "text": "BC Place Stadium" },
+      "explanation": {
+        "id": "sport-10-explanation",
+        "text": "BC Place Stadium in Vancouver has the largest seating capacity in Canada, with a capacity of over 54,000 for sports events. It hosts a wide range of sporting events, including football, soccer, and rugby, as well as concerts and other large-scale entertainment events."
+      }
+    },
+    {
+      "id": "sport-11",
+      "textQuestion": {
+        "id": "sport-11-question",
+        "text": "Which Canadian city is home to the NHL team, the Montreal Canadiens?"
+      },
+      "options": [
+        { "id": "sport-11-option-1", "text": "Vancouver" },
+        { "id": "sport-11-option-2", "text": "Ottawa" },
+        { "id": "sport-11-option-3", "text": "Montreal" },
+        { "id": "sport-11-option-4", "text": "Calgary" }
+      ],
+      "answer": { "id": "sport-11-answer", "text": "Montreal" },
+      "explanation": {
+        "id": "sport-11-explanation",
+        "text": "The Montreal Canadiens, one of the most successful and iconic teams in the National Hockey League (NHL), are based in Montreal, Quebec. Founded in 1909, the Canadiens have a rich history and have won the most Stanley Cup championships in NHL history, making them a central part of Canada's hockey culture."
+      }
+    },
+    {
+      "id": "sport-12",
+      "textQuestion": {
+        "id": "sport-12-question",
+        "text": "Which Canadian city is known for often hosting the annual Grey Cup, Canada's premier football championship?"
+      },
+      "options": [
+        { "id": "sport-12-option-1", "text": "Montreal" },
+        { "id": "sport-12-option-2", "text": "Calgary" },
+        { "id": "sport-12-option-3", "text": "Toronto" },
+        { "id": "sport-12-option-4", "text": "Winnipeg" }
+      ],
+      "answer": { "id": "sport-12-answer", "text": "Winnipeg" },
+      "explanation": {
+        "id": "sport-12-explanation",
+        "text": "The Grey Cup, Canada's top professional football championship, is hosted annually in various cities, with Winnipeg frequently hosting the event. It is a major sporting occasion that unites fans and athletes across Canada."
+      }
+    },
+    {
+      "id": "sport-13",
+      "textQuestion": {
+        "id": "sport-13-question",
+        "text": "Which Canadian martial artist is best known in Canada?"
+      },
+      "options": [
+        { "id": "sport-13-option-1", "text": "Georges St-Pierre" },
+        { "id": "sport-13-option-2", "text": "Rory MacDonald" },
+        { "id": "sport-13-option-3", "text": "Patrick Côté" },
+        { "id": "sport-13-option-4", "text": "Carlos Newton" }
+      ],
+      "answer": { "id": "sport-13-answer", "text": "Georges St-Pierre" },
+      "explanation": {
+        "id": "sport-13-explanation",
+        "text": "Georges St-Pierre is Canada's most famous martial artist, considered one of the greatest MMA fighters of all time. A former UFC welterweight and middleweight champion, he is known for his skill, sportsmanship, and dominance in the octagon."
+      }
+    },
+    {
+      "id": "sport-14",
+      "textQuestion": {
+        "id": "sport-14-question",
+        "text": "Which female canadian athlete is recognized worldwide in soccer?"
+      },
+      "options": [
+        { "id": "sport-14-option-1", "text": "Christine Sinclair" },
+        { "id": "sport-14-option-2", "text": "Alphonso Davies" },
+        { "id": "sport-14-option-3", "text": "Dwayne De Rosario" },
+        { "id": "sport-14-option-4", "text": "Julian De Guzman" }
+      ],
+      "answer": { "id": "sport-14-answer", "text": "Christine Sinclair" },
+      "explanation": {
+        "id": "sport-14-explanation",
+        "text": "She is considered one of the greatest female soccer players of all time, holding the record for the most international goals scored by any player, male or female, in the history of international soccer."
+      }
+    },
+    {
+      "id": "sport-15",
+      "textQuestion": {
+        "id": "sport-15-question",
+        "text": "Has Canada ever won the Davis Cup, the prestigious World Cup of tennis?"
+      },
+      "options": [
+        { "id": "sport-15-option-1", "text": "Yes" },
+        { "id": "sport-15-option-2", "text": "No" }
+      ],
+      "answer": { "id": "sport-15-answer", "text": "Yes" },
+      "explanation": {
+        "id": "sport-15-explanation",
+        "text": "Yes, Canada has won the Davis Cup.This victory was significant as it was Canada's first time winning the prestigious tournament, with the team led by notable players such as Felix Auger-Aliassime and Denis Shapovalov."
+      }
     }
   ],
 
   "Places": [
     {
-      "textQuestion": "Which of the following is a famous park in Canada?",
+      "id": "place-1",
+      "textQuestion": {
+        "id": "question-1",
+        "text": "Which of the following is a famous park in Canada?"
+      },
       "options": [
-        "Stanley Park",
-        "Central Park",
-        "Banff National Park",
-        "South Mountain Park"
+        { "id": "option-1-1", "text": "Stanley Park" },
+        { "id": "option-1-2", "text": "Central Park" },
+        { "id": "option-1-3", "text": "Banff National Park" },
+        { "id": "option-1-4", "text": "South Mountain Park" }
       ],
-      "answer": "Banff National Park",
-      "explanation": "It is known for its stunning mountain landscapes, glaciers, and turquoise lakes. While Stanley Park in Vancouver is also a well-known park, Banff is recognized worldwide for its natural beauty and significance as Canada's first national park."
+      "answer": { "id": "answer-1", "text": "Banff National Park" },
+      "explanation": {
+        "id": "explanation-1",
+        "text": "It is known for its stunning mountain landscapes, glaciers, and turquoise lakes. While Stanley Park in Vancouver is also a well-known park, Banff is recognized worldwide for its natural beauty and significance as Canada's first national park."
+      }
     },
     {
-      "textQuestion": "Where is located a famous clock in Canada",
-      "options": ["Montreal", "Quebec", "Toronto", "Vancouver"],
-      "answer": "Vancouver",
-      "explanation": "The famous Gastown Steam Clock in Vancouver was built in 1977. It is powered by steam and is one of the only steam-powered clocks in the world. The clock also features a unique hourly chime."
-    },
-    {
-      "textQuestion": "Which Canadian city is known for having the world's largest indoor aquarium?",
-      "options": ["Montreal", "Toronto", "Calgary", "Vancouver"],
-      "answer": "Vancouver",
-      "explanation": "The Vancouver Aquarium, located in Stanley Park, is one of the largest and most popular aquariums in Canada, known for its commitment to marine conservation and education."
-    },
-    {
-      "textQuestion": "What is the name of the famous national park in Alberta known for its stunning mountain scenery and hot springs?",
+      "id": "place-2",
+      "textQuestion": {
+        "id": "question-2",
+        "text": "Where is located a famous clock in Canada"
+      },
       "options": [
-        "Jasper National Park",
-        "Banff National Park",
-        "Yoho National Park",
-        "Pacific Rim National Park"
+        { "id": "option-2-1", "text": "Montreal" },
+        { "id": "option-2-2", "text": "Quebec" },
+        { "id": "option-2-3", "text": "Toronto" },
+        { "id": "option-2-4", "text": "Vancouver" }
       ],
-      "answer": "Banff National Park",
-      "explanation": "Banff National Park, established in 1885, is Canada's oldest national park and is a UNESCO World Heritage Site, attracting millions of visitors each year for its natural beauty and outdoor activities."
+      "answer": { "id": "answer-2", "text": "Vancouver" },
+      "explanation": {
+        "id": "explanation-2",
+        "text": "The famous Gastown Steam Clock in Vancouver was built in 1977. It is powered by steam and is one of the only steam-powered clocks in the world. The clock also features a unique hourly chime."
+      }
     },
     {
-      "textQuestion": "Which island off the coast of British Columbia is famous for its whale-watching opportunities and pristine wilderness?",
+      "id": "place-3",
+      "textQuestion": {
+        "id": "question-3",
+        "text": "Which Canadian city is known for having the world's largest indoor aquarium?"
+      },
       "options": [
-        "Vancouver Island",
-        "Prince Edward Island",
-        "Baffin Island",
-        "Newfoundland"
+        { "id": "option-3-1", "text": "Montreal" },
+        { "id": "option-3-2", "text": "Toronto" },
+        { "id": "option-3-3", "text": "Calgary" },
+        { "id": "option-3-4", "text": "Vancouver" }
       ],
-      "answer": "Vancouver Island",
-      "explanation": "Vancouver Island is renowned for its rich biodiversity and is a top destination for whale-watching, especially for orca and humpback whales."
+      "answer": { "id": "answer-3", "text": "Vancouver" },
+      "explanation": {
+        "id": "explanation-3",
+        "text": "The Vancouver Aquarium, located in Stanley Park, is one of the largest and most popular aquariums in Canada, known for its commitment to marine conservation and education."
+      }
     },
     {
-      "textQuestion": "Where can you find the world's largest tides, which rise and fall by up to 16 meters?",
+      "id": "place-4",
+      "textQuestion": {
+        "id": "question-4",
+        "text": "What is the name of the famous national park in Alberta known for its stunning mountain scenery and hot springs?"
+      },
       "options": [
-        "Bay of Fundy",
-        "Great Bear Lake",
-        "Niagara Falls",
-        "St. Lawrence River"
+        { "id": "option-4-1", "text": "Jasper National Park" },
+        { "id": "option-4-2", "text": "Banff National Park" },
+        { "id": "option-4-3", "text": "Yoho National Park" },
+        { "id": "option-4-4", "text": "Pacific Rim National Park" }
       ],
-      "answer": "Bay of Fundy",
-      "explanation": "The Bay of Fundy, located between New Brunswick and Nova Scotia, is known for having the highest tidal range in the world, creating spectacular natural sights."
+      "answer": { "id": "answer-4", "text": "Banff National Park" },
+      "explanation": {
+        "id": "explanation-4",
+        "text": "Banff National Park, established in 1885, is Canada's oldest national park and is a UNESCO World Heritage Site, attracting millions of visitors each year for its natural beauty and outdoor activities."
+      }
     },
     {
-      "textQuestion": "Which city in Canada is known for its historic Old Quebec district, a UNESCO World Heritage Site?",
-      "options": ["Ottawa", "Montreal", "Quebec City", "Toronto"],
-      "answer": "Quebec City",
-      "explanation": "The Old Quebec district is the only fortified city in North America and boasts cobblestone streets, historic buildings, and landmarks like Château Frontenac, making it one of Canada's most picturesque locations."
-    },
-    {
-      "textQuestion": "Which Canadian province is known for its iconic Rocky Mountains, attracting hikers, skiers, and nature enthusiasts?",
-      "options": ["British Columbia", "Alberta", "Quebec", "Ontario"],
-      "answer": "Alberta",
-      "explanation": "The Rocky Mountains in Alberta are home to world-renowned national parks such as Banff and Jasper, where visitors can enjoy outdoor activities year-round, including skiing in the winter and hiking in the summer."
-    },
-    {
-      "textQuestion": "Which Canadian city is known for its beautiful waterfront, historic buildings, and being the gateway to Niagara Falls?",
-      "options": ["Kingston", "Ottawa", "Toronto", "Hamilton"],
-      "answer": "Toronto",
-      "explanation": "Toronto is Canada's largest city and boasts a stunning waterfront along Lake Ontario, with cultural attractions, shopping, and being just a short drive away from the iconic Niagara Falls."
-    },
-    {
-      "textQuestion": "Which Canadian province is home to the world-famous Capilano Suspension Bridge?",
-      "options": ["Quebec", "Ontario", "Nova Scotia", "British Columbia"],
-      "answer": "British Columbia",
-      "explanation": "The Capilano Suspension Bridge in Vancouver, British Columbia, is a 137-meter-long bridge suspended high above the Capilano River, offering a unique view of the surrounding rainforest."
-    },
-    {
-      "textQuestion": "Which Canadian province is home to the stunning ice fields, including the famous Athabasca Glacier?",
-      "options": ["Alberta", "Ontario", "Quebec", "British Columbia"],
-      "answer": "Alberta",
-      "explanation": "The Athabasca Glacier is part of the Columbia Icefield in the Canadian Rockies, one of the largest icefields in North America. Visitors can take guided tours to walk on the glacier or ride a specially designed Ice Explorer."
-    },
-    {
-      "textQuestion": "Which province in Canada is the only one officially bilingual, with both French and English as official languages?",
-      "options": ["Quebec", "Ontario", "New Brunswick", "Nova Scotia"],
-      "answer": "New Brunswick",
-      "explanation": "New Brunswick is the only officially bilingual province in Canada, where both English and French are recognized as official languages, reflecting its rich Francophone and Anglophone heritage."
-    },
-    {
-      "textQuestion": "Which Canadian province is known for its vast wilderness, including over 20 national parks?",
-      "options": ["Alberta", "Quebec", "British Columbia", "Ontario"],
-      "answer": "Quebec",
-      "explanation": "Quebec is home to over 20 national parks, including some of Canada's most remote and beautiful landscapes, like the Gaspé Peninsula and Parc de la Mauricie."
-    },
-    {
-      "textQuestion": "Which Canadian territory is known for its stunning northern lights and polar bear sightings?",
+      "id": "place-5",
+      "textQuestion": {
+        "id": "question-5",
+        "text": "Which island off the coast of British Columbia is famous for its whale-watching opportunities and pristine wilderness?"
+      },
       "options": [
-        "Yukon",
-        "Northwest Territories",
-        "Nunavut",
-        "Prince Edward Island"
+        { "id": "option-5-1", "text": "Vancouver Island" },
+        { "id": "option-5-2", "text": "Prince Edward Island" },
+        { "id": "option-5-3", "text": "Baffin Island" },
+        { "id": "option-5-4", "text": "Newfoundland" }
       ],
-      "answer": "Northwest Territories",
-      "explanation": "The Northwest Territories is one of the best places in the world to view the Northern Lights, and it is also a prime destination for polar bear sightings."
+      "answer": { "id": "answer-5", "text": "Vancouver Island" },
+      "explanation": {
+        "id": "explanation-5",
+        "text": "Vancouver Island is renowned for its rich biodiversity and is a top destination for whale-watching, especially for orca and humpback whales."
+      }
     },
     {
-      "textQuestion": "Which Canadian city is known for hosting one of the world's largest jazz festivals?",
-      "options": ["Vancouver", "Quebec", "Toronto", "Montreal"],
-      "answer": "Montreal",
-      "explanation": "The Montreal International Jazz Festival is the largest jazz festival in the world, attracting thousands of artists and fans every summer."
-    },
-    {
-      "textQuestion": "Which large Canadian national park is located in the northern part of the country and is known for its polar bears?",
+      "id": "place-6",
+      "textQuestion": {
+        "id": "question-6",
+        "text": "Where can you find the world's largest tides, which rise and fall by up to 16 meters?"
+      },
       "options": [
-        "Banff National Park",
-        "Jasper National Park",
-        "Kluane National Park",
-        "Wapusk National Park"
+        { "id": "option-6-1", "text": "Bay of Fundy" },
+        { "id": "option-6-2", "text": "Great Bear Lake" },
+        { "id": "option-6-3", "text": "Niagara Falls" },
+        { "id": "option-6-4", "text": "St. Lawrence River" }
       ],
-      "answer": "Wapusk National Park",
-      "explanation": "Wapusk National Park, located in Manitoba, is one of the best places in Canada to see polar bears in their natural habitat, especially during the fall months."
+      "answer": { "id": "answer-6", "text": "Bay of Fundy" },
+      "explanation": {
+        "id": "explanation-6",
+        "text": "The Bay of Fundy, located between New Brunswick and Nova Scotia, is known for having the highest tidal range in the world, creating spectacular natural sights."
+      }
+    },
+    {
+      "id": "place-7",
+      "textQuestion": {
+        "id": "question-7",
+        "text": "Which city in Canada is known for its historic Old Quebec district, a UNESCO World Heritage Site?"
+      },
+      "options": [
+        { "id": "option-7-1", "text": "Ottawa" },
+        { "id": "option-7-2", "text": "Montreal" },
+        { "id": "option-7-3", "text": "Quebec City" },
+        { "id": "option-7-4", "text": "Toronto" }
+      ],
+      "answer": { "id": "answer-7", "text": "Quebec City" },
+      "explanation": {
+        "id": "explanation-7",
+        "text": "The Old Quebec district is the only fortified city in North America and boasts cobblestone streets, historic buildings, and landmarks like Château Frontenac, making it one of Canada's most picturesque locations."
+      }
+    },
+    {
+      "id": "place-8",
+      "textQuestion": {
+        "id": "question-8",
+        "text": "Which Canadian province is known for its iconic Rocky Mountains, attracting hikers, skiers, and nature enthusiasts?"
+      },
+      "options": [
+        { "id": "option-8-1", "text": "British Columbia" },
+        { "id": "option-8-2", "text": "Alberta" },
+        { "id": "option-8-3", "text": "Quebec" },
+        { "id": "option-8-4", "text": "Ontario" }
+      ],
+      "answer": { "id": "answer-8", "text": "Alberta" },
+      "explanation": {
+        "id": "explanation-8",
+        "text": "The Rocky Mountains in Alberta are home to world-renowned national parks such as Banff and Jasper, where visitors can enjoy outdoor activities year-round, including skiing in the winter and hiking in the summer."
+      }
+    },
+    {
+      "id": "place-9",
+      "textQuestion": {
+        "id": "question-9",
+        "text": "Which Canadian city is known for its beautiful waterfront, historic buildings, and being the gateway to Niagara Falls?"
+      },
+      "options": [
+        { "id": "option-9-1", "text": "Kingston" },
+        { "id": "option-9-2", "text": "Ottawa" },
+        { "id": "option-9-3", "text": "Toronto" },
+        { "id": "option-9-4", "text": "Hamilton" }
+      ],
+      "answer": { "id": "answer-9", "text": "Toronto" },
+      "explanation": {
+        "id": "explanation-9",
+        "text": "Toronto is Canada's largest city and boasts a stunning waterfront along Lake Ontario, with cultural attractions, shopping, and being just a short drive away from the iconic Niagara Falls."
+      }
+    },
+    {
+      "id": "place-10",
+      "textQuestion": {
+        "id": "question-10",
+        "text": "Which Canadian province is home to the world-famous Capilano Suspension Bridge?"
+      },
+      "options": [
+        { "id": "option-10-1", "text": "Quebec" },
+        { "id": "option-10-2", "text": "Ontario" },
+        { "id": "option-10-3", "text": "Nova Scotia" },
+        { "id": "option-10-4", "text": "British Columbia" }
+      ],
+      "answer": { "id": "answer-10", "text": "British Columbia" },
+      "explanation": {
+        "id": "explanation-10",
+        "text": "The Capilano Suspension Bridge in Vancouver, British Columbia, is a 137-meter-long bridge suspended high above the Capilano River, offering a unique view of the surrounding rainforest."
+      }
+    },
+    {
+      "id": "place-11",
+      "textQuestion": {
+        "id": "question-11",
+        "text": "Which Canadian province is home to the stunning ice fields, including the famous Athabasca Glacier?"
+      },
+      "options": [
+        { "id": "option-11-1", "text": "Alberta" },
+        { "id": "option-11-2", "text": "Ontario" },
+        { "id": "option-11-3", "text": "Quebec" },
+        { "id": "option-11-4", "text": "British Columbia" }
+      ],
+      "answer": { "id": "answer-11", "text": "Alberta" },
+      "explanation": {
+        "id": "explanation-11",
+        "text": "The Athabasca Glacier is part of the Columbia Icefield in the Canadian Rockies, one of the largest icefields in North America. Visitors can take guided tours to walk on the glacier or ride a specially designed Ice Explorer."
+      }
+    },
+    {
+      "id": "place-12",
+      "textQuestion": {
+        "id": "question-12",
+        "text": "Which province in Canada is the only one officially bilingual, with both French and English as official languages?"
+      },
+      "options": [
+        { "id": "option-12-1", "text": "Quebec" },
+        { "id": "option-12-2", "text": "Ontario" },
+        { "id": "option-12-3", "text": "New Brunswick" },
+        { "id": "option-12-4", "text": "Nova Scotia" }
+      ],
+      "answer": { "id": "answer-12", "text": "New Brunswick" },
+      "explanation": {
+        "id": "explanation-12",
+        "text": "New Brunswick is the only officially bilingual province in Canada, where both English and French are recognized as official languages, reflecting its rich Francophone and Anglophone heritage."
+      }
+    },
+    {
+      "id": "place-13",
+      "textQuestion": {
+        "id": "question-13",
+        "text": "Which Canadian province is known for its vast wilderness, including over 20 national parks?"
+      },
+      "options": [
+        { "id": "option-13-1", "text": "Alberta" },
+        { "id": "option-13-2", "text": "Quebec" },
+        { "id": "option-13-3", "text": "British Columbia" },
+        { "id": "option-13-4", "text": "Ontario" }
+      ],
+      "answer": { "id": "answer-13", "text": "Quebec" },
+      "explanation": {
+        "id": "explanation-13",
+        "text": "Quebec is home to over 20 national parks, including some of Canada's most remote and beautiful landscapes, like the Gaspé Peninsula and Parc de la Mauricie."
+      }
+    },
+    {
+      "id": "place-14",
+      "textQuestion": {
+        "id": "question-14",
+        "text": "Which Canadian territory is known for its stunning northern lights and polar bear sightings?"
+      },
+      "options": [
+        { "id": "option-14-1", "text": "Yukon" },
+        { "id": "option-14-2", "text": "Northwest Territories" },
+        { "id": "option-14-3", "text": "Nunavut" },
+        { "id": "option-14-4", "text": "Prince Edward Island" }
+      ],
+      "answer": { "id": "answer-14", "text": "Northwest Territories" },
+      "explanation": {
+        "id": "explanation-14",
+        "text": "The Northwest Territories is one of the best places in the world to view the Northern Lights, and it is also a prime destination for polar bear sightings."
+      }
+    },
+    {
+      "id": "place-15",
+      "textQuestion": {
+        "id": "question-15",
+        "text": "Which Canadian city is known for hosting one of the world's largest jazz festivals?"
+      },
+      "options": [
+        { "id": "option-15-1", "text": "Vancouver" },
+        { "id": "option-15-2", "text": "Quebec" },
+        { "id": "option-15-3", "text": "Toronto" },
+        { "id": "option-15-4", "text": "Montreal" }
+      ],
+      "answer": { "id": "answer-15", "text": "Montreal" },
+      "explanation": {
+        "id": "explanation-15",
+        "text": "The Montreal International Jazz Festival is the largest jazz festival in the world, attracting thousands of artists and fans every summer."
+      }
+    },
+    {
+      "id": "place-16",
+      "textQuestion": {
+        "id": "question-16",
+        "text": "Which large Canadian national park is located in the northern part of the country and is known for its polar bears?"
+      },
+      "options": [
+        { "id": "option-16-1", "text": "Banff National Park" },
+        { "id": "option-16-2", "text": "Jasper National Park" },
+        { "id": "option-16-3", "text": "Kluane National Park" },
+        { "id": "option-16-4", "text": "Wapusk National Park" }
+      ],
+      "answer": { "id": "answer-16", "text": "Wapusk National Park" },
+      "explanation": {
+        "id": "explanation-16",
+        "text": "Wapusk National Park, located in Manitoba, is one of the best places in Canada to see polar bears in their natural habitat, especially during the fall months."
+      }
     }
   ],
 
   "Art": [
     {
+      "id": "question-1",
       "textQuestion": "Who is considered one of Canada's most famous painters and is known for her depictions of Indigenous culture and the Pacific Northwest landscapes?",
       "options": [
-        "Tom Thomson",
-        "Emily Carr",
-        "Lawren Harris",
-        "Jean-Paul Riopelle"
+        { "id": "option-1-1", "text": "Tom Thomson" },
+        { "id": "option-1-2", "text": "Emily Carr" },
+        { "id": "option-1-3", "text": "Lawren Harris" },
+        { "id": "option-1-4", "text": "Jean-Paul Riopelle" }
       ],
-      "answer": "Emily Carr",
-      "explanation": "Emily Carr was a Canadian artist and writer known for her paintings of Indigenous totem poles and the landscapes of British Columbia. She was one of the first artists in Canada to portray Indigenous themes in her work."
+      "answer": { "id": "answer-1", "text": "Emily Carr" },
+      "explanation": {
+        "id": "explanation-1",
+        "text": "Emily Carr was a Canadian artist and writer known for her paintings of Indigenous totem poles and the landscapes of British Columbia. She was one of the first artists in Canada to portray Indigenous themes in her work."
+      }
     },
     {
+      "id": "question-2",
       "textQuestion": "Which famous group of Canadian painters focused on landscapes and helped define a unique national art style in the early 20th century?",
       "options": [
-        "The Canadian Impressionists",
-        "The Group of Seven",
-        "The Prairie Realists",
-        "The Montreal School"
+        { "id": "option-2-1", "text": "The Canadian Impressionists" },
+        { "id": "option-2-2", "text": "The Group of Seven" },
+        { "id": "option-2-3", "text": "The Prairie Realists" },
+        { "id": "option-2-4", "text": "The Montreal School" }
       ],
-      "answer": "The Group of Seven",
-      "explanation": "The Group of Seven was a collective of artists in the 1920s known for their bold, colorful depictions of the Canadian wilderness, particularly in Ontario and the Rocky Mountains."
+      "answer": { "id": "answer-2", "text": "The Group of Seven" },
+      "explanation": {
+        "id": "explanation-2",
+        "text": "The Group of Seven was a collective of artists in the 1920s known for their bold, colorful depictions of the Canadian wilderness, particularly in Ontario and the Rocky Mountains."
+      }
     },
     {
+      "id": "question-3",
       "textQuestion": "Which Canadian artist is famous for creating large-scale sculptures inspired by Indigenous traditions, including The Spirit of Haida Gwaii?",
       "options": [
-        "Bill Reid",
-        "Kenojuak Ashevak",
-        "Robert Davidson",
-        "Alex Janvier"
+        { "id": "option-3-1", "text": "Bill Reid" },
+        { "id": "option-3-2", "text": "Kenojuak Ashevak" },
+        { "id": "option-3-3", "text": "Robert Davidson" },
+        { "id": "option-3-4", "text": "Alex Janvier" }
       ],
-      "answer": "Bill Reid",
-      "explanation": "Bill Reid was a Haida artist and sculptor known for his intricate carvings and monumental works, such as The Spirit of Haida Gwaii, which is featured at the Canadian Embassy in Washington, D.C."
+      "answer": { "id": "answer-3", "text": "Bill Reid" },
+      "explanation": {
+        "id": "explanation-3",
+        "text": "Bill Reid was a Haida artist and sculptor known for his intricate carvings and monumental works, such as The Spirit of Haida Gwaii, which is featured at the Canadian Embassy in Washington, D.C."
+      }
     },
     {
+      "id": "question-4",
       "textQuestion": "Which Canadian museum houses the world's largest collection of Inuit art?",
       "options": [
-        "Art Galley of Ontario",
-        "The National Gallery of Canada",
-        "Winnipeg Art Gallery",
-        "Montreal Museum of Fine Arts"
+        { "id": "option-4-1", "text": "Art Gallery of Ontario" },
+        { "id": "option-4-2", "text": "The National Gallery of Canada" },
+        { "id": "option-4-3", "text": "Winnipeg Art Gallery" },
+        { "id": "option-4-4", "text": "Montreal Museum of Fine Arts" }
       ],
-      "answer": "Winnipeg Art Gallery",
-      "explanation": "The Winnipeg Art Gallery (WAG) is home to the world's largest public collection of contemporary Inuit art, showcasing sculptures, prints, and drawings from Arctic communities."
+      "answer": { "id": "answer-4", "text": "Winnipeg Art Gallery" },
+      "explanation": {
+        "id": "explanation-4",
+        "text": "The Winnipeg Art Gallery (WAG) is home to the world's largest public collection of contemporary Inuit art, showcasing sculptures, prints, and drawings from Arctic communities."
+      }
     },
     {
+      "id": "question-5",
       "textQuestion": "What is the name of Canada's most prestigious art award, given annually to a contemporary artist?",
       "options": [
-        "The Sobey Art Award",
-        "The Governor General's Award for Visual Arts",
-        "The Canadian Art Prize",
-        "The Emily Carr Award"
+        { "id": "option-5-1", "text": "The Sobey Art Award" },
+        {
+          "id": "option-5-2",
+          "text": "The Governor General's Award for Visual Arts"
+        },
+        { "id": "option-5-3", "text": "The Canadian Art Prize" },
+        { "id": "option-5-4", "text": "The Emily Carr Award" }
       ],
-      "answer": "The Sobey Art Award",
-      "explanation": "The Sobey Art Award is Canada's most prestigious contemporary art prize, awarded annually to a Canadian artist under the age of 40 who has made a significant impact on the art scene."
+      "answer": { "id": "answer-5", "text": "The Sobey Art Award" },
+      "explanation": {
+        "id": "explanation-5",
+        "text": "The Sobey Art Award is Canada's most prestigious contemporary art prize, awarded annually to a Canadian artist under the age of 40 who has made a significant impact on the art scene."
+      }
     },
     {
+      "id": "question-6",
       "textQuestion": "Which Canadian Inuit artist was famous for her prints and drawings of Arctic wildlife and traditional Inuit stories?",
       "options": [
-        "Annie Pootoogook",
-        "Pitseolak Ashoona",
-        "Kenojuak Ashevak",
-        "Napachie Pootoogook"
+        { "id": "option-6-1", "text": "Annie Pootoogook" },
+        { "id": "option-6-2", "text": "Pitseolak Ashoona" },
+        { "id": "option-6-3", "text": "Kenojuak Ashevak" },
+        { "id": "option-6-4", "text": "Napachie Pootoogook" }
       ],
-      "answer": "Kenojuak Ashevak",
-      "explanation": "Kenojuak Ashevak was a pioneering Inuit artist known for her bold, colorful prints of Arctic animals and spiritual imagery, including The Enchanted Owl, which appeared on a Canadian postage stamp."
+      "answer": { "id": "answer-6", "text": "Kenojuak Ashevak" },
+      "explanation": {
+        "id": "explanation-6",
+        "text": "Kenojuak Ashevak was a pioneering Inuit artist known for her bold, colorful prints of Arctic animals and spiritual imagery, including The Enchanted Owl, which appeared on a Canadian postage stamp."
+      }
     },
     {
+      "id": "question-7",
       "textQuestion": "Which Canadian province is known for its many murals and street art, especially in Montreal?",
-      "options": ["Alberta", "Quebec", "Manitoba", "Nova Scotia"],
-      "answer": "Quebec",
-      "explanation": "Quebec is known for its street art, especially in Montreal, which hosts the annual MURAL Festival where artists paint large murals on city walls."
+      "options": [
+        { "id": "option-7-1", "text": "Alberta" },
+        { "id": "option-7-2", "text": "Quebec" },
+        { "id": "option-7-3", "text": "Manitoba" },
+        { "id": "option-7-4", "text": "Nova Scotia" }
+      ],
+      "answer": { "id": "answer-7", "text": "Quebec" },
+      "explanation": {
+        "id": "explanation-7",
+        "text": "Quebec is known for its street art, especially in Montreal, which hosts the annual MURAL Festival where artists paint large murals on city walls."
+      }
     },
     {
+      "id": "question-8",
       "textQuestion": "Which type of Canadian art is often made by Inuit artists?",
-      "options": ["Oil painting", "Watercolor", "Stone carving", "Graffiti"],
-      "answer": "Stone carving",
-      "explanation": "Inuit artists make detailed stone carvings of animals, people, and spirits, often using soapstone or ivory."
+      "options": [
+        { "id": "option-8-1", "text": "Oil painting" },
+        { "id": "option-8-2", "text": "Watercolor" },
+        { "id": "option-8-3", "text": "Stone carving" },
+        { "id": "option-8-4", "text": "Graffiti" }
+      ],
+      "answer": { "id": "answer-8", "text": "Stone carving" },
+      "explanation": {
+        "id": "explanation-8",
+        "text": "Inuit artists make detailed stone carvings of animals, people, and spirits, often using soapstone or ivory."
+      }
     },
     {
+      "id": "question-9",
       "textQuestion": "Which Canadian painter is known for their bright and colorful Indigenous-style paintings of animals and spirits?",
       "options": [
-        "Norval Morrisseau",
-        "Lawren Harris",
-        "Emily Carr",
-        "Kenojuak Ashevak"
+        { "id": "option-9-1", "text": "Norval Morrisseau" },
+        { "id": "option-9-2", "text": "Lawren Harris" },
+        { "id": "option-9-3", "text": "Emily Carr" },
+        { "id": "option-9-4", "text": "Kenojuak Ashevak" }
       ],
-      "answer": "Kenojuak Ashevak",
-      "explanation": "Norval Morrisseau, also called Copper Thunderbird, was the founder of the Woodland School of Art, which combined Indigenous traditions with modern painting styles."
+      "answer": { "id": "answer-9", "text": "Norval Morrisseau" },
+      "explanation": {
+        "id": "explanation-9",
+        "text": "Norval Morrisseau, also called Copper Thunderbird, was the founder of the Woodland School of Art, which combined Indigenous traditions with modern painting styles."
+      }
     },
     {
+      "id": "question-10",
       "textQuestion": "Which member of the Group of Seven is famous for painting Canada's Arctic landscapes?",
       "options": [
-        "Tom Thomson",
-        "A.Y. Jackson",
-        "J.E.H. MacDonald",
-        "Lawren Harris"
+        { "id": "option-10-1", "text": "Tom Thomson" },
+        { "id": "option-10-2", "text": "A.Y. Jackson" },
+        { "id": "option-10-3", "text": "J.E.H. MacDonald" },
+        { "id": "option-10-4", "text": "Lawren Harris" }
       ],
-      "answer": "Lawren Harris",
-      "explanation": "Lawren Harris painted the icy mountains and glaciers of Canada's Arctic, using simple shapes and strong colors."
+      "answer": { "id": "answer-10", "text": "Lawren Harris" },
+      "explanation": {
+        "id": "explanation-10",
+        "text": "Lawren Harris painted the icy mountains and glaciers of Canada's Arctic, using simple shapes and strong colors."
+      }
     },
     {
+      "id": "question-11",
       "textQuestion": "What type of paint did the Group of Seven mostly use for their landscape paintings?",
-      "options": ["Watercolor", "Oil paint", "Acrylic paint", "Ink"],
-      "answer": "Oil paint",
-      "explanation": "The Group of Seven used thick oil paints to create strong textures and bold colors in their landscape paintings."
+      "options": [
+        { "id": "option-11-1", "text": "Watercolor" },
+        { "id": "option-11-2", "text": "Oil paint" },
+        { "id": "option-11-3", "text": "Acrylic paint" },
+        { "id": "option-11-4", "text": "Ink" }
+      ],
+      "answer": { "id": "answer-11", "text": "Oil paint" },
+      "explanation": {
+        "id": "explanation-11",
+        "text": "The Group of Seven used thick oil paints to create strong textures and bold colors in their landscape paintings."
+      }
     },
     {
+      "id": "question-12",
       "textQuestion": "Which Canadian artist was a leader of the Automatistes, a group that painted in an abstract and spontaneous style?",
       "options": [
-        "Paul-Émile Borduas",
-        "Emily Carr",
-        "Alex Colville",
-        "Jean-Paul Riopelle"
+        { "id": "option-12-1", "text": "Paul-Émile Borduas" },
+        { "id": "option-12-2", "text": "Emily Carr" },
+        { "id": "option-12-3", "text": "Alex Colville" },
+        { "id": "option-12-4", "text": "Jean-Paul Riopelle" }
       ],
-      "answer": "Paul-Émile Borduas",
-      "explanation": "Fact: Paul-Émile Borduas helped create the Refus Global manifesto, which encouraged freedom in art and expression in Quebec."
+      "answer": { "id": "answer-12", "text": "Paul-Émile Borduas" },
+      "explanation": {
+        "id": "explanation-12",
+        "text": "Paul-Émile Borduas helped create the Refus Global manifesto, which encouraged freedom in art and expression in Quebec."
+      }
     },
     {
+      "id": "question-13",
       "textQuestion": "Which famous Canadian painting by Tom Thomson shows a lone tree against a bright sky?",
       "options": [
-        "Mountain Forms",
-        "North Shore, Lake Superior",
-        "The West Wind",
-        "The Jack Pine"
+        { "id": "option-13-1", "text": "Mountain Forms" },
+        { "id": "option-13-2", "text": "North Shore, Lake Superior" },
+        { "id": "option-13-3", "text": "The West Wind" },
+        { "id": "option-13-4", "text": "The Jack Pine" }
       ],
-      "answer": "The Jack Pine",
-      "explanation": "The Jack Pine is one of the most famous paintings in Canadian history, showing the strength of nature and the beauty of Canada's forests."
+      "answer": { "id": "answer-13", "text": "The Jack Pine" },
+      "explanation": {
+        "id": "explanation-13",
+        "text": "The Jack Pine is one of the most famous paintings in Canadian history, showing the strength of nature and the beauty of Canada's forests."
+      }
     },
     {
+      "id": "question-14",
       "textQuestion": "Which Canadian painter is known for his realistic paintings of rural life, including Horse and Train?",
       "options": [
-        "Tom Thomson",
-        "Emily Carr",
-        "Alex Colville",
-        "Lawren Harris"
+        { "id": "option-14-1", "text": "Tom Thomson" },
+        { "id": "option-14-2", "text": "Emily Carr" },
+        { "id": "option-14-3", "text": "Alex Colville" },
+        { "id": "option-14-4", "text": "Lawren Harris" }
       ],
-      "answer": "Alex Colville",
-      "explanation": "Horse and Train is one of Colville's most famous works, showing a horse running toward an oncoming train, symbolizing fate and choices."
+      "answer": { "id": "answer-14", "text": "Alex Colville" },
+      "explanation": {
+        "id": "explanation-14",
+        "text": "Horse and Train is one of Colville's most famous works, showing a horse running toward an oncoming train, symbolizing fate and choices."
+      }
     },
     {
+      "id": "question-15",
       "textQuestion": "What is the name of the Indigenous artist who painted colorful spiritual images in the Woodland art style?",
       "options": [
-        "Emily Carr",
-        "Norval Morrisseau",
-        "Bill Reid",
-        "Cornelius Krieghoff"
+        { "id": "option-15-1", "text": "Emily Carr" },
+        { "id": "option-15-2", "text": "Norval Morrisseau" },
+        { "id": "option-15-3", "text": "Bill Reid" },
+        { "id": "option-15-4", "text": "Cornelius Krieghoff" }
       ],
-      "answer": "Norval Morrisseau",
-      "explanation": "Norval Morrisseau's paintings often showed spiritual stories from Anishinaabe culture. His unique style influenced many Indigenous artists in Canada."
+      "answer": { "id": "answer-15", "text": "Norval Morrisseau" },
+      "explanation": {
+        "id": "explanation-15",
+        "text": "Norval Morrisseau's paintings often showed spiritual stories from Anishinaabe culture. His unique style influenced many Indigenous artists in Canada."
+      }
     },
     {
+      "id": "question-16",
       "textQuestion": "What is the name of the painting by Lawren Harris that shows an icy mountain and is Canada's most expensive painting ever sold at auction?",
       "options": [
-        "The West Wind",
-        "North Shore, Lake Superior",
-        "Mountain Forms",
-        "The Enchanted Owl"
+        { "id": "option-16-1", "text": "The West Wind" },
+        { "id": "option-16-2", "text": "North Shore, Lake Superior" },
+        { "id": "option-16-3", "text": "Mountain Forms" },
+        { "id": "option-16-4", "text": "The Enchanted Owl" }
       ],
-      "answer": "Mountain Forms",
-      "explanation": "Mountain Forms was sold in 2016 for over $11 million, making it the most expensive Canadian painting ever sold at auction."
+      "answer": { "id": "answer-16", "text": "Mountain Forms" },
+      "explanation": {
+        "id": "explanation-16",
+        "text": "Mountain Forms was sold in 2016 for over $11 million, making it the most expensive Canadian painting ever sold at auction."
+      }
     }
   ],
 
   "Food": [
     {
+      "id": 1,
       "textQuestion": "What is the national dish of Canada?",
-      "options": ["Potuine", "Butter Tart", "Tourtière", "Nanaimo Bar"],
-      "answer": "Poutine",
-      "explanation": "Poutine, originally from Quebec, consists of French fries topped with cheese curds and smothered in gravy. It is one of the most iconic Canadian dishes."
+      "options": [
+        { "id": 1, "text": "Poutine" },
+        { "id": 2, "text": "Butter Tart" },
+        { "id": 3, "text": "Tourtière" },
+        { "id": 4, "text": "Nanaimo Bar" }
+      ],
+      "answer": { "id": 1, "text": "Poutine" },
+      "explanation": {
+        "id": 1,
+        "text": "Poutine, originally from Quebec, consists of French fries topped with cheese curds and smothered in gravy. It is one of the most iconic Canadian dishes."
+      }
     },
     {
+      "id": 2,
       "textQuestion": "Which Canadian province is famous for its lobster?",
-      "options": ["Alberta", "Nova Scotia", "British Columbia", "Manitoba"],
-      "answer": "Nova Scotia",
-      "explanation": "Nova Scotia is well known for its fresh seafood, particularly its high-quality lobster, which is a major part of the local economy."
+      "options": [
+        { "id": 5, "text": "Alberta" },
+        { "id": 6, "text": "Nova Scotia" },
+        { "id": 7, "text": "British Columbia" },
+        { "id": 8, "text": "Manitoba" }
+      ],
+      "answer": { "id": 6, "text": "Nova Scotia" },
+      "explanation": {
+        "id": 2,
+        "text": "Nova Scotia is well known for its fresh seafood, particularly its high-quality lobster, which is a major part of the local economy."
+      }
     },
     {
+      "id": 3,
       "textQuestion": "What is a traditional French-Canadian meat pie called?",
-      "options": ["Pâté Chinois", "Bannock", "Tourtière", "Flipper Pie"],
-      "answer": "Tourtière",
-      "explanation": "Tourtière is a traditional Quebecois meat pie, usually made with minced pork, beef, or veal and seasoned with spices."
+      "options": [
+        { "id": 9, "text": "Pâté Chinois" },
+        { "id": 10, "text": "Bannock" },
+        { "id": 11, "text": "Tourtière" },
+        { "id": 12, "text": "Flipper Pie" }
+      ],
+      "answer": { "id": 11, "text": "Tourtière" },
+      "explanation": {
+        "id": 3,
+        "text": "Tourtière is a traditional Quebecois meat pie, usually made with minced pork, beef, or veal and seasoned with spices."
+      }
     },
     {
+      "id": 4,
       "textQuestion": "Which ingredient is essential in a Nanaimo bar?",
       "options": [
-        "Cheese curds",
-        "Graham cracker crumbs",
-        "Maple syrup",
-        "Ketchup"
+        { "id": 13, "text": "Cheese curds" },
+        { "id": 14, "text": "Graham cracker crumbs" },
+        { "id": 15, "text": "Maple syrup" },
+        { "id": 16, "text": "Ketchup" }
       ],
-      "answer": "Graham cracker crumbs",
-      "explanation": "Nanaimo bars, a no-bake dessert from British Columbia, consist of three layers: a crumbly graham cracker base, custard filling, and chocolate topping."
+      "answer": { "id": 14, "text": "Graham cracker crumbs" },
+      "explanation": {
+        "id": 4,
+        "text": "Nanaimo bars, a no-bake dessert from British Columbia, consist of three layers: a crumbly graham cracker base, custard filling, and chocolate topping."
+      }
     },
     {
+      "id": 5,
       "textQuestion": "Which province is most famous for producing maple syrup?",
       "options": [
-        "Saskatchewan",
-        "Newfoundland and Labrador",
-        "Prince Edward Island",
-        "Quebec"
+        { "id": 17, "text": "Saskatchewan" },
+        { "id": 18, "text": "Newfoundland and Labrador" },
+        { "id": 19, "text": "Prince Edward Island" },
+        { "id": 20, "text": "Quebec" }
       ],
-      "answer": "Quebec",
-      "explanation": "Quebec produces over 70% of the world's maple syrup, making it the largest producer globally."
+      "answer": { "id": 20, "text": "Quebec" },
+      "explanation": {
+        "id": 5,
+        "text": "Quebec produces over 70% of the world's maple syrup, making it the largest producer globally."
+      }
     },
     {
+      "id": 6,
       "textQuestion": "What is a common topping for Canadian peameal bacon?",
-      "options": ["Maple syrup", "Ketchup", "Mustard", "Cheese"],
-      "answer": "Mustard",
-      "explanation": "Peameal bacon, a Toronto specialty, is often served in a sandwich with mustard, enhancing its savory flavor."
+      "options": [
+        { "id": 21, "text": "Maple syrup" },
+        { "id": 22, "text": "Ketchup" },
+        { "id": 23, "text": "Mustard" },
+        { "id": 24, "text": "Cheese" }
+      ],
+      "answer": { "id": 23, "text": "Mustard" },
+      "explanation": {
+        "id": 6,
+        "text": "Peameal bacon, a Toronto specialty, is often served in a sandwich with mustard, enhancing its savory flavor."
+      }
     },
     {
+      "id": 7,
       "textQuestion": "Which of these is NOT considered a traditional Canadian food?",
-      "options": ["Bannock", "Beavertails", "Saskatoon Berry Pie", "Sushi"],
-      "answer": "Sushi",
-      "explanation": "While sushi is popular in Canada, it originates from Japan."
+      "options": [
+        { "id": 25, "text": "Bannock" },
+        { "id": 26, "text": "Beavertails" },
+        { "id": 27, "text": "Saskatoon Berry Pie" },
+        { "id": 28, "text": "Sushi" }
+      ],
+      "answer": { "id": 28, "text": "Sushi" },
+      "explanation": {
+        "id": 7,
+        "text": "While sushi is popular in Canada, it originates from Japan."
+      }
     },
     {
+      "id": 8,
       "textQuestion": "What is a beavertail?",
       "options": [
-        "A type of fish",
-        "A deep-fried pastry",
-        "A maple-flavored sausage",
-        "A Canadian-style pancake"
+        { "id": 29, "text": "A type of fish" },
+        { "id": 30, "text": "A deep-fried pastry" },
+        { "id": 31, "text": "A maple-flavored sausage" },
+        { "id": 32, "text": "A Canadian-style pancake" }
       ],
-      "answer": "A deep-fried pastry",
-      "explanation": "Beavertails are fried dough pastries, often topped with sugar, chocolate, or fruit, and are a popular Canadian treat."
+      "answer": { "id": 30, "text": "A deep-fried pastry" },
+      "explanation": {
+        "id": 8,
+        "text": "Beavertails are fried dough pastries, often topped with sugar, chocolate, or fruit, and are a popular Canadian treat."
+      }
     },
     {
+      "id": 9,
       "textQuestion": "Which Indigenous Canadian dish is made with fried dough?",
-      "options": ["Pemmican", "Toutons", "Bannock", "Flipper Pie"],
-      "answer": "Bannock",
-      "explanation": "Bannock is a traditional Indigenous bread that can be baked or fried, and it has been a staple food for many Indigenous communities."
+      "options": [
+        { "id": 33, "text": "Pemmican" },
+        { "id": 34, "text": "Toutons" },
+        { "id": 35, "text": "Bannock" },
+        { "id": 36, "text": "Flipper Pie" }
+      ],
+      "answer": { "id": 35, "text": "Bannock" },
+      "explanation": {
+        "id": 9,
+        "text": "Bannock is a traditional Indigenous bread that can be baked or fried, and it has been a staple food for many Indigenous communities."
+      }
     },
     {
+      "id": 10,
       "textQuestion": "Which Canadian province is famous for its wild blueberries?",
-      "options": ["Quebec", "Manitoba", "New Brunswick", "British Columbia"],
-      "answer": "Quebec",
-      "explanation": "Quebec is one of the top producers of wild blueberries, which are widely used in jams, desserts, and other dishes."
+      "options": [
+        { "id": 37, "text": "Quebec" },
+        { "id": 38, "text": "Manitoba" },
+        { "id": 39, "text": "New Brunswick" },
+        { "id": 40, "text": "British Columbia" }
+      ],
+      "answer": { "id": 37, "text": "Quebec" },
+      "explanation": {
+        "id": 10,
+        "text": "Quebec is one of the top producers of wild blueberries, which are widely used in jams, desserts, and other dishes."
+      }
     },
     {
+      "id": 11,
       "textQuestion": "What is a traditional Newfoundland and Labrador dish made from salted fish and potatoes?",
       "options": [
-        "Jiggs's Dinner",
-        "Fish and Brewis",
-        "Tourtière",
-        "Cod Tongues"
+        { "id": 41, "text": "Jiggs's Dinner" },
+        { "id": 42, "text": "Fish and Brewis" },
+        { "id": 43, "text": "Tourtière" },
+        { "id": 44, "text": "Cod Tongues" }
       ],
-      "answer": "Fish and Brewis",
-      "explanation": "Fish and Brewis is a traditional Newfoundland dish made with salted cod and hardtack (a type of biscuit) soaked in water and served together."
+      "answer": { "id": 42, "text": "Fish and Brewis" },
+      "explanation": {
+        "id": 11,
+        "text": "Fish and Brewis is a traditional Newfoundland dish made with salted cod and hardtack (a type of biscuit) soaked in water and served together."
+      }
     },
     {
+      "id": 12,
       "textQuestion": "Which Canadian city is famous for its bagels?",
-      "options": ["Toronto", "Montreal", "Vancouver", "Calgary"],
-      "answer": "Montreal",
-      "explanation": "Montreal-style bagels are smaller, denser, and slightly sweeter than New York-style bagels and are often baked in wood-fired ovens."
+      "options": [
+        { "id": 45, "text": "Toronto" },
+        { "id": 46, "text": "Montreal" },
+        { "id": 47, "text": "Vancouver" },
+        { "id": 48, "text": "Calgary" }
+      ],
+      "answer": { "id": 46, "text": "Montreal" },
+      "explanation": {
+        "id": 12,
+        "text": "Montreal-style bagels are smaller, denser, and slightly sweeter than New York-style bagels and are often baked in wood-fired ovens."
+      }
     },
     {
+      "id": 13,
       "textQuestion": "Which province is known for producing high-quality beef?",
-      "options": ["Alberta", "British Columbia", "Ontario", "Quebec"],
-      "answer": "Alberta",
-      "explanation": "Alberta is famous for its cattle ranching industry and is known for producing some of the best beef in Canada."
+      "options": [
+        { "id": 49, "text": "Alberta" },
+        { "id": 50, "text": "British Columbia" },
+        { "id": 51, "text": "Ontario" },
+        { "id": 52, "text": "Quebec" }
+      ],
+      "answer": { "id": 49, "text": "Alberta" },
+      "explanation": {
+        "id": 13,
+        "text": "Alberta is famous for its cattle ranching industry and is known for producing some of the best beef in Canada."
+      }
     },
     {
+      "id": 14,
       "textQuestion": "Which type of salmon is most commonly found on the west coast of Canada?",
       "options": [
-        "Atlantic salmon",
-        "Chinook salmon",
-        "Sockeye salmon",
-        "Pink salmon"
+        { "id": 53, "text": "Atlantic salmon" },
+        { "id": 54, "text": "Chinook salmon" },
+        { "id": 55, "text": "Sockeye salmon" },
+        { "id": 56, "text": "Pink salmon" }
       ],
-      "answer": "Sockeye salmon",
-      "explanation": "Sockeye salmon is one of the most prized and abundant species of salmon found in British Columbia's waters."
+      "answer": { "id": 55, "text": "Sockeye salmon" },
+      "explanation": {
+        "id": 14,
+        "text": "Sockeye salmon is one of the most prized and abundant species of salmon found in British Columbia's waters."
+      }
     },
     {
+      "id": 15,
       "textQuestion": "Which Indigenous dish is made from dried meat, berries, and fat?",
-      "options": ["Pemmican", "Tourtière", "Bannock", "Poutine"],
-      "answer": "Pemmican",
-      "explanation": "Pemmican was a staple food for Indigenous peoples and fur traders, as it provided a long-lasting and high-energy food source."
+      "options": [
+        { "id": 57, "text": "Pemmican" },
+        { "id": 58, "text": "Tourtière" },
+        { "id": 59, "text": "Bannock" },
+        { "id": 60, "text": "Poutine" }
+      ],
+      "answer": { "id": 57, "text": "Pemmican" },
+      "explanation": {
+        "id": 15,
+        "text": "Pemmican was a staple food for Indigenous peoples and fur traders, as it provided a long-lasting and high-energy food source."
+      }
     }
   ],
 
   "Festival_Dates_Common_Activities": [
     {
+      "id": "Q1",
       "textQuestion": "When is Canada Day celebrated?",
-      "options": ["June 24", "July 1", "August 15", "September 5"],
-      "answer": "July 1",
-      "explanation": "Canada Day is celebrated on July 1st each year, marking the anniversary of the confederation of Canada in 1867."
+      "options": [
+        { "id": "Q1O1", "text": "June 24" },
+        { "id": "Q1O2", "text": "July 1" },
+        { "id": "Q1O3", "text": "August 15" },
+        { "id": "Q1O4", "text": "September 5" }
+      ],
+      "answer": { "id": "Q1A", "text": "July 1" },
+      "explanation": {
+        "id": "Q1E",
+        "text": "Canada Day is celebrated on July 1st each year, marking the anniversary of the confederation of Canada in 1867."
+      }
     },
     {
+      "id": "Q2",
       "textQuestion": "What is the main activity during the Calgary Stampede?",
       "options": [
-        "Dog sledding",
-        "Rodeo competitions",
-        "Maple syrup tasting",
-        "Ice skating"
+        { "id": "Q2O1", "text": "Dog sledding" },
+        { "id": "Q2O2", "text": "Rodeo competitions" },
+        { "id": "Q2O3", "text": "Maple syrup tasting" },
+        { "id": "Q2O4", "text": "Ice skating" }
       ],
-      "answer": "Rodeo competitions",
-      "explanation": "The Calgary Stampede is a world-famous rodeo festival held in Alberta every July, featuring rodeo events, parades, and concerts."
+      "answer": { "id": "Q2A", "text": "Rodeo competitions" },
+      "explanation": {
+        "id": "Q2E",
+        "text": "The Calgary Stampede is a world-famous rodeo festival held in Alberta every July, featuring rodeo events, parades, and concerts."
+      }
     },
     {
+      "id": "Q3",
       "textQuestion": "Which Canadian holiday is known as the 'unofficial start of summer'?",
       "options": [
-        "Victoria Day",
-        "Canada Day",
-        "Thanksgiving",
-        "Remembrance Day"
+        { "id": "Q3O1", "text": "Victoria Day" },
+        { "id": "Q3O2", "text": "Canada Day" },
+        { "id": "Q3O3", "text": "Thanksgiving" },
+        { "id": "Q3O4", "text": "Remembrance Day" }
       ],
-      "answer": "Victoria Day",
-      "explanation": "Victoria Day is celebrated on the last Monday before May 25th and is often associated with fireworks, parades, and the beginning of summer activities."
+      "answer": { "id": "Q3A", "text": "Victoria Day" },
+      "explanation": {
+        "id": "Q3E",
+        "text": "Victoria Day is celebrated on the last Monday before May 25th and is often associated with fireworks, parades, and the beginning of summer activities."
+      }
     },
     {
+      "id": "Q4",
       "textQuestion": "What do people traditionally do on Remembrance Day?",
       "options": [
-        "Go skiing",
-        "Watch fireworks",
-        "Wear poppies and observe a moment of silence",
-        "Carve pumpkins"
+        { "id": "Q4O1", "text": "Go skiing" },
+        { "id": "Q4O2", "text": "Watch fireworks" },
+        {
+          "id": "Q4O3",
+          "text": "Wear poppies and observe a moment of silence"
+        },
+        { "id": "Q4O4", "text": "Carve pumpkins" }
       ],
-      "answer": "Wear poppies and observe a moment of silence",
-      "explanation": "Remembrance Day, observed on November 11, honors soldiers who have died in wars, with Canadians wearing red poppies and holding a moment of silence at 11 AM."
+      "answer": {
+        "id": "Q4A",
+        "text": "Wear poppies and observe a moment of silence"
+      },
+      "explanation": {
+        "id": "Q4E",
+        "text": "Remembrance Day, observed on November 11, honors soldiers who have died in wars, with Canadians wearing red poppies and holding a moment of silence at 11 AM."
+      }
     },
     {
+      "id": "Q5",
       "textQuestion": "When is Thanksgiving celebrated in Canada?",
       "options": [
-        "The second Monday in October",
-        "The fourth Thursday in November",
-        "July 1",
-        "December 25"
+        { "id": "Q5O1", "text": "The second Monday in October" },
+        { "id": "Q5O2", "text": "The fourth Thursday in November" },
+        { "id": "Q5O3", "text": "July 1" },
+        { "id": "Q5O4", "text": "December 25" }
       ],
-      "answer": "The second Monday in October",
-      "explanation": "Canadian Thanksgiving is celebrated on the second Monday in October, focusing on gratitude, family gatherings, and feasting."
+      "answer": { "id": "Q5A", "text": "The second Monday in October" },
+      "explanation": {
+        "id": "Q5E",
+        "text": "Canadian Thanksgiving is celebrated on the second Monday in October, focusing on gratitude, family gatherings, and feasting."
+      }
     },
     {
+      "id": "Q6",
       "textQuestion": "Which festival in Quebec is known for its lively celebrations, traditional music, and vibrant street performances?",
       "options": [
-        "Festival d'été de Québec",
-        "Montreal Jazz Festival",
-        "Quebec Winter Carnival",
-        "Celtic Colours International Festival"
+        { "id": "Q6O1", "text": "Festival d'été de Québec" },
+        { "id": "Q6O2", "text": "Montreal Jazz Festival" },
+        { "id": "Q6O3", "text": "Quebec Winter Carnival" },
+        { "id": "Q6O4", "text": "Celtic Colours International Festival" }
       ],
-      "answer": "Festival d'été de Québec",
-      "explanation": "The Festival d'été de Québec is one of Canada's largest outdoor music festivals, featuring international and local artists performing in the heart of Quebec City each summer."
+      "answer": { "id": "Q6A", "text": "Festival d'été de Québec" },
+      "explanation": {
+        "id": "Q6E",
+        "text": "The Festival d'été de Québec is one of Canada's largest outdoor music festivals, featuring international and local artists performing in the heart of Quebec City each summer."
+      }
     },
     {
+      "id": "Q7",
       "textQuestion": "What do people do during the Toronto International Film Festival (TIFF)?",
       "options": [
-        "Celebrate winter sports",
-        "Watch and premiere films",
-        "Eat traditional food",
-        "Observe a moment of silence"
+        { "id": "Q7O1", "text": "Celebrate winter sports" },
+        { "id": "Q7O2", "text": "Watch and premiere films" },
+        { "id": "Q7O3", "text": "Eat traditional food" },
+        { "id": "Q7O4", "text": "Observe a moment of silence" }
       ],
-      "answer": "Watch and premiere films",
-      "explanation": "TIFF, held in September, is one of the world's largest film festivals, showcasing international and Canadian films."
+      "answer": { "id": "Q7A", "text": "Watch and premiere films" },
+      "explanation": {
+        "id": "Q7E",
+        "text": "TIFF, held in September, is one of the world's largest film festivals, showcasing international and Canadian films."
+      }
     },
     {
+      "id": "Q8",
       "textQuestion": "Which holiday marks the end of the year and is celebrated with fireworks and parties?",
-      "options": ["Victoria Day", "Canada Day", "New Year's Eve", "Easter"],
-      "answer": "New Year's Eve",
-      "explanation": "New Year's Eve, on December 31, is celebrated with fireworks, parties, and countdowns to welcome the new year."
+      "options": [
+        { "id": "Q8O1", "text": "Victoria Day" },
+        { "id": "Q8O2", "text": "Canada Day" },
+        { "id": "Q8O3", "text": "New Year's Eve" },
+        { "id": "Q8O4", "text": "Easter" }
+      ],
+      "answer": { "id": "Q8A", "text": "New Year's Eve" },
+      "explanation": {
+        "id": "Q8E",
+        "text": "New Year's Eve, on December 31, is celebrated with fireworks, parties, and countdowns to welcome the new year."
+      }
     },
     {
+      "id": "Q9",
       "textQuestion": "Which holiday is celebrated with Halloween costumes and trick-or-treating?",
-      "options": ["Christmas", "Easter", "Halloween", "Labor Day"],
-      "answer": "Halloween",
-      "explanation": "Halloween, on October 31, is celebrated with costumes, trick-or-treating, haunted houses, and spooky decorations."
+      "options": [
+        { "id": "Q9O1", "text": "Christmas" },
+        { "id": "Q9O2", "text": "Easter" },
+        { "id": "Q9O3", "text": "Halloween" },
+        { "id": "Q9O4", "text": "Labor Day" }
+      ],
+      "answer": { "id": "Q9A", "text": "Halloween" },
+      "explanation": {
+        "id": "Q9E",
+        "text": "Halloween, on October 31, is celebrated with costumes, trick-or-treating, haunted houses, and spooky decorations."
+      }
     },
     {
+      "id": "Q10",
       "textQuestion": "What is the main tradition on Christmas Day in Canada?",
       "options": [
-        "Lighting fireworks",
-        "Giving and receiving gifts",
-        "Holding a rodeo",
-        "Planting trees"
+        { "id": "Q10O1", "text": "Lighting fireworks" },
+        { "id": "Q10O2", "text": "Giving and receiving gifts" },
+        { "id": "Q10O3", "text": "Holding a rodeo" },
+        { "id": "Q10O4", "text": "Planting trees" }
       ],
-      "answer": "Giving and receiving gifts",
-      "explanation": "Christmas, on December 25, is celebrated with family gatherings, gift-giving, and festive meals."
+      "answer": { "id": "Q10A", "text": "Giving and receiving gifts" },
+      "explanation": {
+        "id": "Q10E",
+        "text": "Christmas, on December 25, is celebrated with family gatherings, gift-giving, and festive meals."
+      }
     },
     {
+      "id": "Q11",
       "textQuestion": "Which Canadian festival is known for its spectacular winter celebrations and ice sculptures?",
       "options": [
-        "Winterlude",
-        "Calgary Stampede",
-        "Caribana",
-        "Toronto International Film Festival"
+        { "id": "Q11O1", "text": "Winterlude" },
+        { "id": "Q11O2", "text": "Calgary Stampede" },
+        { "id": "Q11O3", "text": "Caribana" },
+        { "id": "Q11O4", "text": "Toronto International Film Festival" }
       ],
-      "answer": "Winterlude",
-      "explanation": "Winterlude is an annual festival held in Ottawa, featuring stunning ice sculptures, outdoor skating, and winter activities that attract visitors from around the world."
+      "answer": { "id": "Q11A", "text": "Winterlude" },
+      "explanation": {
+        "id": "Q11E",
+        "text": "Winterlude is an annual festival held in Ottawa, featuring stunning ice sculptures, outdoor skating, and winter activities that attract visitors from around the world."
+      }
     },
     {
+      "id": "Q12",
       "textQuestion": "What is celebrated on February 2 in Canada, with a tradition involving a groundhog?",
       "options": [
-        "Canada Day",
-        "Groundhog Day",
-        "Victoria Day",
-        "Remembrance Day"
+        { "id": "Q12O1", "text": "Canada Day" },
+        { "id": "Q12O2", "text": "Groundhog Day" },
+        { "id": "Q12O3", "text": "Victoria Day" },
+        { "id": "Q12O4", "text": "Remembrance Day" }
       ],
-      "answer": "Groundhog Day",
-      "explanation": "On Groundhog Day, a groundhog's behavior is used to predict the length of winter; if it sees its shadow, winter will continue for six more weeks."
+      "answer": { "id": "Q12A", "text": "Groundhog Day" },
+      "explanation": {
+        "id": "Q12E",
+        "text": "On Groundhog Day, a groundhog's behavior is used to predict the length of winter; if it sees its shadow, winter will continue for six more weeks."
+      }
     },
     {
+      "id": "Q13",
       "textQuestion": "Which Canadian festival celebrates the arrival of spring with floral displays and parades?",
       "options": [
-        "Tulip Festival",
-        "Montreal Jazz Festival",
-        "National Canada Day",
-        "Quebec Winter Carnival"
+        { "id": "Q13O1", "text": "Tulip Festival" },
+        { "id": "Q13O2", "text": "Montreal Jazz Festival" },
+        { "id": "Q13O3", "text": "National Canada Day" },
+        { "id": "Q13O4", "text": "Quebec Winter Carnival" }
       ],
-      "answer": "Tulip Festival",
-      "explanation": "The Tulip Festival in Ottawa celebrates spring with millions of tulips blooming across the city and includes vibrant parades, cultural events, and art installations."
+      "answer": { "id": "Q13A", "text": "Tulip Festival" },
+      "explanation": {
+        "id": "Q13E",
+        "text": "The Tulip Festival in Ottawa celebrates spring with millions of tulips blooming across the city and includes vibrant parades, cultural events, and art installations."
+      }
     },
     {
+      "id": "Q14",
       "textQuestion": "What is celebrated during the Nova Scotia International Tattoo festival?",
       "options": [
-        "Traditional music and military performances",
-        "The founding of Nova Scotia",
-        "The arrival of European settlers",
-        "The harvest season"
+        {
+          "id": "Q14O1",
+          "text": "Traditional music and military performances"
+        },
+        { "id": "Q14O2", "text": "The founding of Nova Scotia" },
+        { "id": "Q14O3", "text": "The arrival of European settlers" },
+        { "id": "Q14O4", "text": "The harvest season" }
       ],
-      "answer": "Traditional music and military performances",
-      "explanation": "The Nova Scotia International Tattoo festival, held annually in Halifax, celebrates traditional military and cultural performances with a focus on music, dance, and the military history of the region."
+      "answer": {
+        "id": "Q14A",
+        "text": "Traditional music and military performances"
+      },
+      "explanation": {
+        "id": "Q14E",
+        "text": "The Nova Scotia International Tattoo festival, held annually in Halifax, celebrates traditional military and cultural performances with a focus on music, dance, and the military history of the region."
+      }
     },
     {
+      "id": "Q15",
       "textQuestion": "Which festival in Yukon celebrates the arrival of spring with outdoor activities and community events?",
       "options": [
-        "Yukon Quest",
-        "Frostbite Music Festival",
-        "Sourdough Rendezvous",
-        "Klondike Gold Rush Festival"
+        { "id": "Q15O1", "text": "Yukon Quest" },
+        { "id": "Q15O2", "text": "Frostbite Music Festival" },
+        { "id": "Q15O3", "text": "Sourdough Rendezvous" },
+        { "id": "Q15O4", "text": "Klondike Gold Rush Festival" }
       ],
-      "answer": "Sourdough Rendezvous",
-      "explanation": "Sourdough Rendezvous is a traditional winter festival in Whitehorse, Yukon, celebrating the end of winter with activities like ice sculpting, snowshoe races, and local music."
+      "answer": { "id": "Q15A", "text": "Sourdough Rendezvous" },
+      "explanation": {
+        "id": "Q15E",
+        "text": "Sourdough Rendezvous is a traditional winter festival in Whitehorse, Yukon, celebrating the end of winter with activities like ice sculpting, snowshoe races, and local music."
+      }
     }
   ]
 }
