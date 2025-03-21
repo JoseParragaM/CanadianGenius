@@ -19,89 +19,36 @@
     </thead>
     <tbody>
       <tr class="score-row">
-        <td class="score-data">15 minutes</td>
-        <td class="score-data"><span class="score-value">4</span> out of 5 (<span class="score-value">80%</span>)</td>
+        <td class="score-data" id="time">15 minutes</td>
+        <td class="score-data"><span class="score-value" id="score">4</span> out of 5 (<span class="score-value"
+            id="percent">80</span><span>%</span>)</td>
       </tr>
     </tbody>
   </table>
 
   <h2 class="feedback-title">Feedback Based on Your Score:</h2>
   <ul class="feedback-list">
-      <li class="feedback-item">100% → Prime Minister of Canada! 🇨🇦👑</li>
-      <li class="feedback-item">90% → You are a true Canadian! 🇨🇦</li>
-      <li class="feedback-item highlight">80% → You're a Canadian citizen! Welcome!</li>
-      <li class="feedback-item">70% → You get permanent residency!</li>
-      <li class="feedback-item">50% → You qualify for a tourist visa!</li>
-      <li class="feedback-item">30% → You're still at the airport… ✈️</li>
-      <li class="feedback-item">10% or lower → Time to pack your bags and go home! 🧳</li>
-      <li class="feedback-item">0% → Instantly deported! 🚔😂</li>
+    <li class="feedback-item">100% → Prime Minister of Canada! 🇨🇦👑</li>
+    <li class="feedback-item">90% → You are a true Canadian! 🇨🇦</li>
+    <li class="feedback-item highlight">80% → You're a Canadian citizen! Welcome!</li>
+    <li class="feedback-item">70% → You get permanent residency!</li>
+    <li class="feedback-item">50% → You qualify for a tourist visa!</li>
+    <li class="feedback-item">30% → You're still at the airport… ✈️</li>
+    <li class="feedback-item">10% or lower → Time to pack your bags and go home! 🧳</li>
+    <li class="feedback-item">0% → Instantly deported! 🚔😂</li>
   </ul>
 
-  <div class="question-section">
-    <h3 class="question-title">Question 1</h3>
-    <p class="question-text">What is the capital city of Canada?</p>
-    <ul class="answer-list">
-        <li class="answer-item">Toronto</li>
-        <li class="answer-item">Vancouver</li>
-        <li class="answer-item correct">Ottawa ✅(Correct!)</li>
-        <li class="answer-item">Montreal</li>
-    </ul>
-    <p class="answer-feedback">Correct! Ottawa is the capital city of Canada.</p>
-  </div>
-
-  <div class="question-section">
-    <h3 class="question-title">Question 2</h3>
-    <p class="question-text">Which Canadian province is the largest by land area?</p>
-    <ul class="answer-list">
-        <li class="answer-item">Ontario</li>
-        <li class="answer-item correct">Quebec ✅(Correct!)</li>
-        <li class="answer-item">Alberta</li>
-        <li class="answer-item">British Columbia</li>
-    </ul>
-    <p class="answer-feedback">Correct! Quebec is the largest province in Canada by land area.</p>
-  </div>
-
-  <div class="question-section">
-    <h3 class="question-title">Question 3</h3>
-    <p class="question-text">What animal is featured on the Canadian five-cent coin?</p>
-    <ul class="answer-list">
-        <li class="answer-item">Moose</li>
-        <li class="answer-item">Polar Bear</li>
-        <li class="answer-item correct">Beaver ✅(Correct!)</li>
-        <li class="answer-item">Looney Bird</li>
-    </ul>
-    <p class="answer-feedback">Correct! The beaver is featured on the Canadian nickel.</p>
-  </div>
-
-  <div class="question-section">
-    <h3 class="question-title">Question 4</h3>
-    <p class="question-text">Which Canadian city hosted the 2010 Winter Olympics?</p>
-    <ul class="answer-list">
-        <li class="answer-item">Calgary</li>
-        <li class="answer-item correct">Vancouver ✅(Correct!)</li>
-        <li class="answer-item">Toronto</li>
-        <li class="answer-item">Montreal</li>
-    </ul>
-    <p class="answer-feedback">Correct! Vancouver hosted the 2010 Winter Olympics.</p>
-  </div>
-
-  <div class="question-section">
-    <h3 class="question-title">Question 5</h3>
-    <p class="question-text">Which of the following is NOT an official language of Canada?</p>
-    <ul class="answer-list">
-        <li class="answer-item">English</li>
-        <li class="answer-item correct-answer">French</li>
-        <li class="answer-item incorrect">Japanese ❌(Incorrect!)</li>
-        <li class="answer-item">None of the above</li>
-    </ul>
-    <p class="answer-feedback incorrect-feedback">Incorrect! Canada has two official languages: English and French.</p>
+  <div id="quiz-container">
   </div>
 
   <footer class="page-footer">
     <div class="nav-buttons">
-      <button onclick="" class="nav-button">Home</button>
-      <button onclick="" class="nav-button">Scoreboard</button>
+      <button onclick="goHome()" class="nav-button">Home</button>
+      <button onclick="goToScoreboard()" class="nav-button">Scoreboard</button>
     </div>
   </footer>
+
+  <script src="/scripts/feedbackScript.js"></script>
 </body>
+
 </html>
