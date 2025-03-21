@@ -2,12 +2,12 @@ document.addEventListener('DOMContentLoaded', () => {
     let userData = JSON.parse(localStorage.getItem('userData')) || {
         name: '',
         answers: {
-            history: { score: 0, time: 0, userAnswers: [] },
-            sports: { score: 0, time: 0, userAnswers: [] },
-            places: { score: 0, time: 0, userAnswers: [] },
-            art: { score: 0, time: 0, userAnswers: [] },
-            food: { score: 0, time: 0, userAnswers: [] },
-            activities: { score: 0, time: 0, userAnswers: [] },
+            history: { score: 0, time: '', userAnswers: [] },
+            sports: { score: 0, time: '', userAnswers: [] },
+            places: { score: 0, time: '', userAnswers: [] },
+            art: { score: 0, time: '', userAnswers: [] },
+            food: { score: 0, time: '', userAnswers: [] },
+            activities: { score: 0, time: '', userAnswers: [] },
         }
     };
 
@@ -38,9 +38,15 @@ document.querySelector('.buttons-category').addEventListener('click', (event) =>
                 questionId: q.id,
                 optionId: null
             }));
+            userData.answers[category].score = 0;
+            userData.answers[category].time = '';
 
             localStorage.setItem('userData', JSON.stringify(userData));
             window.location.href = '../templates/quiz.html';
         })
         .catch(error => console.error('Error:', error));
+});
+
+document.querySelector('.scoreboard-button').addEventListener('click', () => {
+    window.location.href = '../templates/scoreboard.html';
 });
