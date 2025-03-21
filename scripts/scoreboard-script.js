@@ -19,8 +19,6 @@ function getLabelsCategories (){
 
 function getScore(){
  for(let i = 0; i < lablesCategories.length; i++){
-  // this is use to test the functionaliti of the scoreboard, after merging this was delete  
-  userData.answers[lablesCategories[i]].score = 5;
   scores.push(userData.answers[lablesCategories[i]].score); 
  }
 }
