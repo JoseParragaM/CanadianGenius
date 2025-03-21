@@ -79,7 +79,8 @@ const setPercent = (percent) => {
 }
 
 const setQuiz = () => {
-  const questionlist = JSON.parse(localStorage.getItem('questionlist'));
+  const questions = JSON.parse(localStorage.getItem('chosenQuestions'));
+  console.log("Questions⭐️:", questions);
   // TODO: Get user data from local storage
   // const userData = JSON.parse(localStorage.getItem('userData'));
   const container = document.getElementById("quiz-container");
@@ -88,8 +89,6 @@ const setQuiz = () => {
     console.error("quiz-container not found!");
     return;
   }
-
-  const questions = questionlist.questions
 
   questions.forEach((question, i) => {
     const section = document.createElement("div");
