@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: lightblue;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+.scoreboard-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+.logo {
+    max-width: 200px;
+    margin: 20px 0;
+}
+.buttons-category {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.buttons-category button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
