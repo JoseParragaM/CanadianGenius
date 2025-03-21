@@ -80,7 +80,6 @@ const setPercent = (percent) => {
 
 const setQuiz = () => {
   const questions = JSON.parse(localStorage.getItem('chosenQuestions'));
-  console.log("Questions⭐️:", questions);
   // TODO: Get user data from local storage
   // const userData = JSON.parse(localStorage.getItem('userData'));
   const container = document.getElementById("quiz-container");
