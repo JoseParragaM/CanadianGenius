@@ -1,0 +1,161 @@
+{
+    "name": "",
+    "answers": {
+        "history": {
+            "score": 0,
+            "time": 0,
+            "userAnswers": [
+                {
+                    "questionId": null,
+                    "optionId": null
+                },
+                {
+                    "questionId": null,
+                    "optionId": null
+                },
+                {
+                    "questionId": null,
+                    "optionId": null
+                },
+                {
+                    "questionId": null,
+                    "optionId": null
+                },
+                {
+                    "questionId": null,
+                    "optionId": null
+                }
+            ]
+        },
+        "sports": {
+            "score": 0,
+            "time": 0,
+            "userAnswers": [
+                {
+                    "questionId": null,
+                    "optionId": null
+                },
+                {
+                    "questionId": null,
+                    "optionId": null
+                },
+                {
+                    "questionId": null,
+                    "optionId": null
+                },
+                {
+                    "questionId": null,
+                    "optionId": null
+                },
+                {
+                    "questionId": null,
+                    "optionId": null
+                }
+            ]
+        },
+        "places": {
+            "score": 0,
+            "time": 0,
+            "userAnswers": [
+                {
+                    "questionId": null,
+                    "optionId": null
+                },
+                {
+                    "questionId": null,
+                    "optionId": null
+                },
+                {
+                    "questionId": null,
+                    "optionId": null
+                },
+                {
+                    "questionId": null,
+                    "optionId": null
+                },
+                {
+                    "questionId": null,
+                    "optionId": null
+                }
+            ]
+        },
+        "art": {
+            "score": 0,
+            "time": 0,
+            "userAnswers": [
+                {
+                    "questionId": null,
+                    "optionId": null
+                },
+                {
+                    "questionId": null,
+                    "optionId": null
+                },
+                {
+                    "questionId": null,
+                    "optionId": null
+                },
+                {
+                    "questionId": null,
+                    "optionId": null
+                },
+                {
+                    "questionId": null,
+                    "optionId": null
+                }
+            ]
+        },
+        "food": {
+            "score": 0,
+            "time": 0,
+            "userAnswers": [
+                {
+                    "questionId": null,
+                    "optionId": null
+                },
+                {
+                    "questionId": null,
+                    "optionId": null
+                },
+                {
+                    "questionId": null,
+                    "optionId": null
+                },
+                {
+                    "questionId": null,
+                    "optionId": null
+                },
+                {
+                    "questionId": null,
+                    "optionId": null
+                }
+            ]
+        },
+        "festivalDatesCommonActivities": {
+            "score": 0,
+            "time": 0,
+            "userAnswers": [
+                {
+                    "questionId": null,
+                    "optionId": null
+                },
+                {
+                    "questionId": null,
+                    "optionId": null
+                },
+                {
+                    "questionId": null,
+                    "optionId": null
+                },
+                {
+                    "questionId": null,
+                    "optionId": null
+                },
+                {
+                    "questionId": null,
+                    "optionId": null
+                }
+            ]
+        }
+    }
+}
