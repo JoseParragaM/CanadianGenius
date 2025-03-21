@@ -1269,7 +1269,7 @@
     }
   ],
 
-  "festivalDatesCommonActivities": [
+  "activities": [
     {
       "id": 1,
       "textQuestion": "When is Canada Day celebrated?",
