@@ -5,92 +5,103 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Feedback Page</title>
+  <link rel="stylesheet" href="/styles/feedbackStyle.css">
 </head>
 
-<body>
-  <h1>Feedback Page</h1>
-  <table>
+<body class="feedback-page">
+  <h1 class="page-title">Feedback Page</h1>
+  <table class="score-table">
     <thead>
       <tr>
-        <th>Attempt</th>
-        <th>Time</th>
-        <th>Score</th>
+        <th class="table-header">Time</th>
+        <th class="table-header">Score</th>
       </tr>
     </thead>
     <tbody>
-      <tr>
-        <td>Attempt 1</td>
-        <td>15 minutes</td>
-        <td>4 out of 5</td>
+      <tr class="score-row">
+        <td class="score-data">15 minutes</td>
+        <td class="score-data"><span class="score-value">4</span> out of 5 (<span class="score-value">80%</span>)</td>
       </tr>
     </tbody>
   </table>
 
-  <h2>Score for this quiz: 4 out of 5(80%)</h2>
-  <p>Submitted March 14 at 3:00pm</p>
-  <p>This attempt took 15 minutes.</p>
-
-  <h2>Feedback Based on Your Score:</h2>
-  <ul>
-      <li>100% → Prime Minister of Canada! 🇨🇦👑</li>
-      <li>90% → You are a true Canadian! 🇨🇦</li>
-      <li><strong>80% → You're a Canadian citizen! Welcome!</strong></li>
-      <li>70% → You get permanent residency!</li>
-      <li>50% → You qualify for a tourist visa!</li>
-      <li>30% → You're still at the airport… ✈️</li>
-      <li>10% or lower → Time to pack your bags and go home! 🧳</li>
-      <li>0% → Instantly deported! 🚔😂</li>
+  <h2 class="feedback-title">Feedback Based on Your Score:</h2>
+  <ul class="feedback-list">
+      <li class="feedback-item">100% → Prime Minister of Canada! 🇨🇦👑</li>
+      <li class="feedback-item">90% → You are a true Canadian! 🇨🇦</li>
+      <li class="feedback-item highlight">80% → You're a Canadian citizen! Welcome!</li>
+      <li class="feedback-item">70% → You get permanent residency!</li>
+      <li class="feedback-item">50% → You qualify for a tourist visa!</li>
+      <li class="feedback-item">30% → You're still at the airport… ✈️</li>
+      <li class="feedback-item">10% or lower → Time to pack your bags and go home! 🧳</li>
+      <li class="feedback-item">0% → Instantly deported! 🚔😂</li>
   </ul>
 
-  <h3>Question 1</h3>
-  <p>What is the capital city of Canada?</p>
-  <ul>
-      <li>Toronto</li>
-      <li>Vancouver</li>
-      <li><strong>Ottawa</strong> ✅(Correct!)</li>
-      <li>Montreal</li>
-  </ul>
-  <p><strong>Feedback:</strong> Correct! Ottawa is the capital city of Canada.</p>
+  <div class="question-section">
+    <h3 class="question-title">Question 1</h3>
+    <p class="question-text">What is the capital city of Canada?</p>
+    <ul class="answer-list">
+        <li class="answer-item">Toronto</li>
+        <li class="answer-item">Vancouver</li>
+        <li class="answer-item correct">Ottawa ✅(Correct!)</li>
+        <li class="answer-item">Montreal</li>
+    </ul>
+    <p class="answer-feedback">Correct! Ottawa is the capital city of Canada.</p>
+  </div>
 
-  <h3>Question 2</h3>
-  <p>Which Canadian province is the largest by land area?</p>
-  <ul>
-      <li>Ontario</li>
-      <li><strong>Quebec</strong> ✅(Correct!)</li>
-      <li>Alberta</li>
-      <li>British Columbia</li>
-  </ul>
-  <p><strong>Feedback:</strong> Correct! Quebec is the largest province in Canada by land area.</p>
+  <div class="question-section">
+    <h3 class="question-title">Question 2</h3>
+    <p class="question-text">Which Canadian province is the largest by land area?</p>
+    <ul class="answer-list">
+        <li class="answer-item">Ontario</li>
+        <li class="answer-item correct">Quebec ✅(Correct!)</li>
+        <li class="answer-item">Alberta</li>
+        <li class="answer-item">British Columbia</li>
+    </ul>
+    <p class="answer-feedback">Correct! Quebec is the largest province in Canada by land area.</p>
+  </div>
 
-  <h3>Question 3</h3>
-  <p>What animal is featured on the Canadian five-cent coin?</p>
-  <ul>
-      <li>Moose</li>
-      <li>Polar Bear</li>
-      <li><strong>Beaver</strong> ✅(Correct!)</li>
-      <li>Looney Bird</li>
-  </ul>
-  <p><strong>Feedback:</strong> Correct! The beaver is featured on the Canadian nickel.</p>
+  <div class="question-section">
+    <h3 class="question-title">Question 3</h3>
+    <p class="question-text">What animal is featured on the Canadian five-cent coin?</p>
+    <ul class="answer-list">
+        <li class="answer-item">Moose</li>
+        <li class="answer-item">Polar Bear</li>
+        <li class="answer-item correct">Beaver ✅(Correct!)</li>
+        <li class="answer-item">Looney Bird</li>
+    </ul>
+    <p class="answer-feedback">Correct! The beaver is featured on the Canadian nickel.</p>
+  </div>
 
-  <h3>Question 4</h3>
-  <p>Which Canadian city hosted the 2010 Winter Olympics?</p>
-  <ul>
-      <li>Calgary</li>
-      <li><strong>Vancouver</strong> ✅(Correct!)</li>
-      <li>Toronto</li>
-      <li>Montreal</li>
-  </ul>
-  <p><strong>Feedback:</strong> Correct! Vancouver hosted the 2010 Winter Olympics.</p>
+  <div class="question-section">
+    <h3 class="question-title">Question 4</h3>
+    <p class="question-text">Which Canadian city hosted the 2010 Winter Olympics?</p>
+    <ul class="answer-list">
+        <li class="answer-item">Calgary</li>
+        <li class="answer-item correct">Vancouver ✅(Correct!)</li>
+        <li class="answer-item">Toronto</li>
+        <li class="answer-item">Montreal</li>
+    </ul>
+    <p class="answer-feedback">Correct! Vancouver hosted the 2010 Winter Olympics.</p>
+  </div>
 
-  <h2>Question 5</h2>
-  <p>Which of the following is NOT an official language of Canada?</p>
-  <ul>
-      <li>English</li>
-      <li><strong>French</strong> ❌(Incorrect!)</li>
-      <li>Japanese</li>
-      <li>None of the above</li>
-  </ul>
-  <p><b>Feedback for this answer:</b> Incorrect! Canada has two official languages: English and French.</p>
+  <div class="question-section">
+    <h3 class="question-title">Question 5</h3>
+    <p class="question-text">Which of the following is NOT an official language of Canada?</p>
+    <ul class="answer-list">
+        <li class="answer-item">English</li>
+        <li class="answer-item correct-answer">French</li>
+        <li class="answer-item incorrect">Japanese ❌(Incorrect!)</li>
+        <li class="answer-item">None of the above</li>
+    </ul>
+    <p class="answer-feedback incorrect-feedback">Incorrect! Canada has two official languages: English and French.</p>
+  </div>
 
+  <footer class="page-footer">
+    <div class="nav-buttons">
+      <button onclick="" class="nav-button">Home</button>
+      <button onclick="" class="nav-button">Scoreboard</button>
+    </div>
+  </footer>
 </body>
 </html>

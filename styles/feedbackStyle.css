@@ -1,0 +1,141 @@
+body.feedback-page {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #333333;
+  margin: 0;
+  padding: 20px;
+}
+
+h1.page-title, h2.feedback-title {
+  text-align: center;
+  color: #333333;
+}
+
+.score-value {
+  color: #dc3545;
+}
+
+table.score-table {
+  width: 60%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th.table-header, td.score-data {
+  padding: 10px;
+  border: 1px solid #dddddd;
+  text-align: center;
+}
+
+th.table-header {
+  background-color: #ff0000;
+  color: #ffffff;
+}
+
+ul.feedback-list {
+  padding: 15px;
+  background: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  list-style: none;
+  width: 50%;
+  margin: 20px auto;
+}
+
+li.feedback-item {
+  background: #e9ecef;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+}
+
+@keyframes sparkle {
+  0% { background-color: #ffc107; box-shadow: 0 0 5px #ffc107; }
+  50% { background-color: #ffea70; box-shadow: 0 0 15px #ffea70; }
+  100% { background-color: #ffc107; box-shadow: 0 0 5px #ffc107; }
+}
+
+li.feedback-item.highlight {
+  background: #ffc107;
+  font-weight: bold;
+  animation: sparkle 1.5s infinite alternate;
+}
+
+.question-section {
+  width: 60%;
+  margin: 20px auto;
+  padding: 15px;
+  background: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h3.question-title {
+  color: #ff0000;
+}
+
+ul.answer-list {
+  list-style: none;
+  padding: 0;
+}
+
+li.answer-item {
+  background: #e9ecef;
+  padding: 8px;
+  margin: 5px 0;
+  border-radius: 5px;
+}
+
+li.answer-item.correct {
+  background: #28a745;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+li.answer-item.correct-answer {
+  background: #dc3545;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+li.answer-item.incorrect {
+  background: #4d4d4d;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+p.answer-feedback {
+  color: #28a745;
+  font-weight: bold;
+}
+
+p.answer-feedback.incorrect-feedback {
+  color: #dc3545;
+}
+
+.page-footer {
+  margin-top: 20px;
+  padding: 20px;
+  text-align: right;
+}
+
+.nav-buttons {
+  margin-top: 10px;
+}
+
+.nav-button {
+  background-color: #ff0000;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.nav-button:hover {
+  background-color: #cc0000;
+}
