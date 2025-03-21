@@ -7,6 +7,10 @@ let qNumber = 1;
 
 const timeEle = document.getElementById("time");
 
+let userData = JSON.parse(localStorage.getItem("userData"));
+let chosenCategory = localStorage.getItem("chosenCategory");
+
+
 function timeRefresh() {
     let numbers = 
         (hours < 10 ? "0" : "") + hours + ":" +
@@ -35,12 +39,12 @@ function Initiate() {
 window.onload = function() {
     Initiate();
 
-    let chosenQuestions = JSON.parse(localStorage.getItem('chosenQuestions')) || [];
+    let chosenQuestions = JSON.parse(localStorage.getItem("chosenQuestions")) || [];
 
     if (chosenQuestions.length > 0) {
         questions = chosenQuestions;
         updateQuestion();
-        enableButtons(); 
+        enableButtons();
     }
 };
 
@@ -54,7 +58,6 @@ const optionsList = document.getElementById("optionsList");
 function updateQuestion() {
     if (questions.length > 0 && qNumber <= questions.length) {
         const question = questions[qNumber - 1];
-        console.log(question)
         questionTitle.textContent = `Question ${qNumber}: ${question.textQuestion}`;
 
         optionsList.innerHTML = ""; 
@@ -63,6 +66,28 @@ function updateQuestion() {
             const li = document.createElement("li");
             li.innerHTML = `<input type="radio" name="answer" value="${option.id}"> ${option.text}`;
             optionsList.appendChild(li);
+
+            const input = li.querySelector("input");
+
+            let userAnswer = userData.answers[chosenCategory].userAnswers.find(a => a.questionId === question.id);
+            if (userAnswer && userAnswer.optionId === option.id) {
+                input.checked = true;
+            }
+
+            input.addEventListener("change", () => {
+                let existingAnswer = userData.answers[chosenCategory].userAnswers.find(a => a.questionId === question.id);
+                
+                if (existingAnswer) {
+                    existingAnswer.optionId = option.id; 
+                } else {
+                    userData.answers[chosenCategory].userAnswers.push({
+                        questionId: question.id,
+                        optionId: option.id
+                    });
+                }
+
+                localStorage.setItem("userData", JSON.stringify(userData));
+            });
         });
     }
 }
@@ -82,15 +107,15 @@ function enableButtons() {
         }
     };
 
-    finishButton.addEventListener('click', function() {
-        if (confirm('Are you sure you want to finish the quiz?')) {
-            window.location.href = 'feedback.html';
+    finishButton.addEventListener("click", function() {
+        if (confirm("Are you sure you want to finish the quiz?")) {
+            window.location.href = "feedback.html";
         }
     });
 
-    homeButton.addEventListener('click', function() {
-        if (confirm('Are you sure you want to go to the Home Page of the quiz?')) {
-            window.location.href = '../index.html';
+    homeButton.addEventListener("click", function() {
+        if (confirm("Are you sure you want to go to the Home Page of the quiz?")) {
+            window.location.href = "../index.html";
         }
     });
 }
