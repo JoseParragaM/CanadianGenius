@@ -2,7 +2,7 @@ let seconds = 0;
 let minutes = 0;
 let hours = 0;
 let interval;
-let questions = []; 
+let questions = [];
 let qNumber = 1;
 
 const timeEle = document.getElementById("time");
@@ -12,7 +12,7 @@ let chosenCategory = localStorage.getItem("chosenCategory");
 
 
 function timeRefresh() {
-    let numbers = 
+    let numbers =
         (hours < 10 ? "0" : "") + hours + ":" +
         (minutes < 10 ? "0" : "") + minutes + ":" +
         (seconds < 10 ? "0" : "") + seconds;
@@ -36,7 +36,7 @@ function Initiate() {
     }
 }
 
-window.onload = function() {
+window.onload = function () {
     Initiate();
 
     let chosenQuestions = JSON.parse(localStorage.getItem("chosenQuestions")) || [];
@@ -60,7 +60,7 @@ function updateQuestion() {
         const question = questions[qNumber - 1];
         questionTitle.textContent = `Question ${qNumber}: ${question.textQuestion}`;
 
-        optionsList.innerHTML = ""; 
+        optionsList.innerHTML = "";
 
         question.options.forEach(option => {
             const li = document.createElement("li");
@@ -76,9 +76,9 @@ function updateQuestion() {
 
             input.addEventListener("change", () => {
                 let existingAnswer = userData.answers[chosenCategory].userAnswers.find(a => a.questionId === question.id);
-                
+
                 if (existingAnswer) {
-                    existingAnswer.optionId = option.id; 
+                    existingAnswer.optionId = option.id;
                 } else {
                     userData.answers[chosenCategory].userAnswers.push({
                         questionId: question.id,
@@ -93,46 +93,42 @@ function updateQuestion() {
 }
 
 function enableButtons() {
-    nextButton.onclick = function() {
-        if (qNumber < questions.length) { 
+    nextButton.onclick = function () {
+        if (qNumber < questions.length) {
             qNumber++;
             updateQuestion();
         }
     };
 
-    prevButton.onclick = function() {
-        if (qNumber > 1) { 
+    prevButton.onclick = function () {
+        if (qNumber > 1) {
             qNumber--;
             updateQuestion();
         }
     };
 
-    finishButton.addEventListener("click", function() {
+    finishButton.addEventListener("click", function () {
         if (confirm("Are you sure you want to finish the quiz?")) {
-            finishButton.addEventListener('click', function () {
-                if (confirm('Are you sure you want to finish the quiz?')) {
-                    let userData = JSON.parse(localStorage.getItem('userData'));
-                    let category = localStorage.getItem('chosenCategory');
-                    let chosenQuestions = JSON.parse(localStorage.getItem('chosenQuestions'));
-    
-                    if (userData.answers[category] && userData.answers[category].userAnswers) {
-                        userData.answers[category].userAnswers.forEach(answer => {
-                            let question = chosenQuestions.find(q => q.id === answer.questionId);
-                            if (question && answer.optionId === question.answer.id) {
-                                userData.answers[category].score += 1;
-                            }
-                        });
-                        userData.answers[category].time = `${String(hours).padStart(2, '0')}:${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
-                        localStorage.setItem('userData', JSON.stringify(userData));
+            let userData = JSON.parse(localStorage.getItem('userData'));
+            let category = localStorage.getItem('chosenCategory');
+            let chosenQuestions = JSON.parse(localStorage.getItem('chosenQuestions'));
+
+            if (userData.answers[category] && userData.answers[category].userAnswers) {
+                userData.answers[category].userAnswers.forEach(answer => {
+                    let question = chosenQuestions.find(q => q.id === answer.questionId);
+                    if (question && answer.optionId === question.answer.id) {
+                        userData.answers[category].score += 1;
                     }
-    
-                    window.location.href = 'feedback.html';
-                }
-            });
+                });
+                userData.answers[category].time = `${String(hours).padStart(2, '0')}:${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+                localStorage.setItem('userData', JSON.stringify(userData));
+            }
+
+            window.location.href = 'feedback.html';
         }
     });
 
-    homeButton.addEventListener("click", function() {
+    homeButton.addEventListener("click", function () {
         if (confirm("Are you sure you want to go to the Home Page of the quiz?")) {
             window.location.href = "../index.html";
         }
