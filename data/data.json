@@ -239,10 +239,7 @@
   "Sports": [
     {
       "id": 1,
-      "textQuestion": {
-        "id": 1,
-        "text": "What sport is considered one of the most popular and historically significant in Canada?"
-      },
+      "textQuestion": "What sport is considered one of the most popular and historically significant in Canada?",
       "options": [
         { "id": 1, "text": "Ice hockey" },
         { "id": 2, "text": "Lacrosse" },
@@ -257,10 +254,7 @@
     },
     {
       "id": 2,
-      "textQuestion": {
-        "id": 2,
-        "text": "Which Canadian sports team is internationally recognized and has a rich history?"
-      },
+      "textQuestion": "Which Canadian sports team is internationally recognized and has a rich history?",
       "options": [
         { "id": 1, "text": "Toronto Raptors" },
         { "id": 2, "text": "Vancouver Canucks" },
@@ -275,10 +269,7 @@
     },
     {
       "id": 3,
-      "textQuestion": {
-        "id": 3,
-        "text": "Which Canadian sports team has the largest fanbase across the country?"
-      },
+      "textQuestion": "Which Canadian sports team has the largest fanbase across the country?",
       "options": [
         { "id": 1, "text": "Toronto Maple Leafs (NHL)" },
         { "id": 2, "text": "Montreal Canadiens (NHL)" },
@@ -293,10 +284,7 @@
     },
     {
       "id": 4,
-      "textQuestion": {
-        "id": 4,
-        "text": "Which Canadian city is home to an NBA team?"
-      },
+      "textQuestion": "Which Canadian city is home to an NBA team?",
       "options": [
         { "id": 1, "text": "Vancouver" },
         { "id": 2, "text": "Toronto" },
@@ -311,10 +299,7 @@
     },
     {
       "id": 5,
-      "textQuestion": {
-        "id": 5,
-        "text": "How many Canadian Championships has the Vancouver Whitecaps?"
-      },
+      "textQuestion": "How many Canadian Championships has the Vancouver Whitecaps?",
       "options": [
         { "id": 1, "text": "4" },
         { "id": 2, "text": "5" },
@@ -329,10 +314,7 @@
     },
     {
       "id": 6,
-      "textQuestion": {
-        "id": 6,
-        "text": "Which sport is considered Canada's national winter sport?"
-      },
+      "textQuestion": "Which sport is considered Canada's national winter sport?",
       "options": [
         { "id": 1, "text": "Ice Hockey" },
         { "id": 2, "text": "Lacrosse" },
@@ -347,10 +329,7 @@
     },
     {
       "id": 7,
-      "textQuestion": {
-        "id": 7,
-        "text": "Which sport is considered Canada's national summer sport?"
-      },
+      "textQuestion": "Which sport is considered Canada's national summer sport?",
       "options": [
         { "id": 1, "text": "Lacrosse" },
         { "id": 2, "text": "Baseball" },
@@ -365,10 +344,7 @@
     },
     {
       "id": 8,
-      "textQuestion": {
-        "id": 8,
-        "text": "Since when Lacrosse is considering a national sport?"
-      },
+      "textQuestion": "Since when Lacrosse is considering a national sport?",
       "options": [
         { "id": 1, "text": "1870" },
         { "id": 2, "text": "1859" },
@@ -383,10 +359,7 @@
     },
     {
       "id": 9,
-      "textQuestion": {
-        "id": 9,
-        "text": "Which combat sport is popular in Canada and has produced numerous world-renowned athletes?"
-      },
+      "textQuestion": "Which combat sport is popular in Canada and has produced numerous world-renowned athletes?",
       "options": [
         { "id": 1, "text": "Boxing" },
         { "id": 2, "text": "Mix Martial Arts(MMA)" },
@@ -401,10 +374,7 @@
     },
     {
       "id": 10,
-      "textQuestion": {
-        "id": 10,
-        "text": "Which stadium has the largest seating capacity in Canada?"
-      },
+      "textQuestion": "Which stadium has the largest seating capacity in Canada?",
       "options": [
         { "id": 1, "text": "Rogers Centre (Toronto)" },
         { "id": 2, "text": "Commonwealth Stadium (Edmonton)" },
@@ -419,10 +389,7 @@
     },
     {
       "id": 11,
-      "textQuestion": {
-        "id": 11,
-        "text": "Which Canadian city is home to the NHL team, the Montreal Canadiens?"
-      },
+      "textQuestion": "Which Canadian city is home to the NHL team, the Montreal Canadiens?",
       "options": [
         { "id": 1, "text": "Vancouver" },
         { "id": 2, "text": "Ottawa" },
@@ -437,10 +404,7 @@
     },
     {
       "id": 12,
-      "textQuestion": {
-        "id": 12,
-        "text": "Which Canadian city is known for often hosting the annual Grey Cup, Canada's premier football championship?"
-      },
+      "textQuestion": "Which Canadian city is known for often hosting the annual Grey Cup, Canada's premier football championship?",
       "options": [
         { "id": 1, "text": "Montreal" },
         { "id": 2, "text": "Calgary" },
@@ -455,10 +419,7 @@
     },
     {
       "id": 13,
-      "textQuestion": {
-        "id": 13,
-        "text": "Which Canadian martial artist is best known in Canada?"
-      },
+      "textQuestion": "Which Canadian martial artist is best known in Canada?",
       "options": [
         { "id": 1, "text": "Georges St-Pierre" },
         { "id": 2, "text": "Rory MacDonald" },
@@ -473,10 +434,7 @@
     },
     {
       "id": 14,
-      "textQuestion": {
-        "id": 14,
-        "text": "Which female canadian athlete is recognized worldwide in soccer?"
-      },
+      "textQuestion": "Which female canadian athlete is recognized worldwide in soccer?",
       "options": [
         { "id": 1, "text": "Christine Sinclair" },
         { "id": 2, "text": "Alphonso Davies" },
@@ -491,10 +449,7 @@
     },
     {
       "id": 15,
-      "textQuestion": {
-        "id": 15,
-        "text": "Has Canada ever won the Davis Cup, the prestigious World Cup of tennis?"
-      },
+      "textQuestion": "Has Canada ever won the Davis Cup, the prestigious World Cup of tennis?",
       "options": [
         { "id": 1, "text": "Yes" },
         { "id": 2, "text": "No" }
@@ -510,10 +465,7 @@
   "Places": [
     {
       "id": 1,
-      "textQuestion": {
-        "id": 1,
-        "text": "Which of the following is a famous park in Canada?"
-      },
+      "textQuestion": "Which of the following is a famous park in Canada?",
       "options": [
         { "id": 1, "text": "Stanley Park" },
         { "id": 2, "text": "Central Park" },
@@ -528,10 +480,7 @@
     },
     {
       "id": 2,
-      "textQuestion": {
-        "id": 2,
-        "text": "Where is located a famous clock in Canada"
-      },
+      "textQuestion": "Where is located a famous clock in Canada",
       "options": [
         { "id": 1, "text": "Montreal" },
         { "id": 2, "text": "Quebec" },
@@ -546,10 +495,7 @@
     },
     {
       "id": 3,
-      "textQuestion": {
-        "id": 3,
-        "text": "Which Canadian city is known for having the world's largest indoor aquarium?"
-      },
+      "textQuestion": "Which Canadian city is known for having the world's largest indoor aquarium?",
       "options": [
         { "id": 1, "text": "Montreal" },
         { "id": 2, "text": "Toronto" },
@@ -564,10 +510,7 @@
     },
     {
       "id": 4,
-      "textQuestion": {
-        "id": 4,
-        "text": "What is the name of the famous national park in Alberta known for its stunning mountain scenery and hot springs?"
-      },
+      "textQuestion": "What is the name of the famous national park in Alberta known for its stunning mountain scenery and hot springs?",
       "options": [
         { "id": 1, "text": "Jasper National Park" },
         { "id": 2, "text": "Banff National Park" },
@@ -582,10 +525,7 @@
     },
     {
       "id": 5,
-      "textQuestion": {
-        "id": 5,
-        "text": "Which island off the coast of British Columbia is famous for its whale-watching opportunities and pristine wilderness?"
-      },
+      "textQuestion": "Which island off the coast of British Columbia is famous for its whale-watching opportunities and pristine wilderness?",
       "options": [
         { "id": 1, "text": "Vancouver Island" },
         { "id": 2, "text": "Prince Edward Island" },
@@ -600,10 +540,7 @@
     },
     {
       "id": 6,
-      "textQuestion": {
-        "id": 6,
-        "text": "Where can you find the world's largest tides, which rise and fall by up to 16 meters?"
-      },
+      "textQuestion": "Where can you find the world's largest tides, which rise and fall by up to 16 meters?",
       "options": [
         { "id": 1, "text": "Bay of Fundy" },
         { "id": 2, "text": "Great Bear Lake" },
@@ -618,10 +555,7 @@
     },
     {
       "id": 7,
-      "textQuestion": {
-        "id": 7,
-        "text": "Which city in Canada is known for its historic Old Quebec district, a UNESCO World Heritage Site?"
-      },
+      "textQuestion": "Which city in Canada is known for its historic Old Quebec district, a UNESCO World Heritage Site?",
       "options": [
         { "id": 1, "text": "Ottawa" },
         { "id": 2, "text": "Montreal" },
@@ -636,10 +570,7 @@
     },
     {
       "id": 8,
-      "textQuestion": {
-        "id": 8,
-        "text": "Which Canadian province is known for its iconic Rocky Mountains, attracting hikers, skiers, and nature enthusiasts?"
-      },
+      "textQuestion": "Which Canadian province is known for its iconic Rocky Mountains, attracting hikers, skiers, and nature enthusiasts?",
       "options": [
         { "id": 1, "text": "British Columbia" },
         { "id": 2, "text": "Alberta" },
@@ -654,10 +585,7 @@
     },
     {
       "id": 9,
-      "textQuestion": {
-        "id": 9,
-        "text": "Which Canadian city is known for its beautiful waterfront, historic buildings, and being the gateway to Niagara Falls?"
-      },
+      "textQuestion": "Which Canadian city is known for its beautiful waterfront, historic buildings, and being the gateway to Niagara Falls?",
       "options": [
         { "id": 1, "text": "Kingston" },
         { "id": 2, "text": "Ottawa" },
@@ -672,10 +600,7 @@
     },
     {
       "id": 10,
-      "textQuestion": {
-        "id": 10,
-        "text": "Which Canadian province is home to the world-famous Capilano Suspension Bridge?"
-      },
+      "textQuestion": "Which Canadian province is home to the world-famous Capilano Suspension Bridge?",
       "options": [
         { "id": 1, "text": "Quebec" },
         { "id": 2, "text": "Ontario" },
@@ -690,10 +615,7 @@
     },
     {
       "id": 11,
-      "textQuestion": {
-        "id": 11,
-        "text": "Which Canadian province is home to the stunning ice fields, including the famous Athabasca Glacier?"
-      },
+      "textQuestion": "Which Canadian province is home to the stunning ice fields, including the famous Athabasca Glacier?",
       "options": [
         { "id": 1, "text": "Alberta" },
         { "id": 2, "text": "Ontario" },
@@ -708,10 +630,7 @@
     },
     {
       "id": 12,
-      "textQuestion": {
-        "id": 12,
-        "text": "Which province in Canada is the only one officially bilingual, with both French and English as official languages?"
-      },
+      "textQuestion": "Which province in Canada is the only one officially bilingual, with both French and English as official languages?",
       "options": [
         { "id": 1, "text": "Quebec" },
         { "id": 2, "text": "Ontario" },
@@ -726,10 +645,7 @@
     },
     {
       "id": 13,
-      "textQuestion": {
-        "id": 13,
-        "text": "Which Canadian province is known for its vast wilderness, including over 20 national parks?"
-      },
+      "textQuestion": "Which Canadian province is known for its vast wilderness, including over 20 national parks?",
       "options": [
         { "id": 1, "text": "Alberta" },
         { "id": 2, "text": "Quebec" },
@@ -744,10 +660,7 @@
     },
     {
       "id": 14,
-      "textQuestion": {
-        "id": 14,
-        "text": "Which Canadian territory is known for its stunning northern lights and polar bear sightings?"
-      },
+      "textQuestion": "Which Canadian territory is known for its stunning northern lights and polar bear sightings?",
       "options": [
         { "id": 1, "text": "Yukon" },
         { "id": 2, "text": "Northwest Territories" },
@@ -762,10 +675,7 @@
     },
     {
       "id": 15,
-      "textQuestion": {
-        "id": 15,
-        "text": "Which Canadian city is known for hosting one of the world's largest jazz festivals?"
-      },
+      "textQuestion": "Which Canadian city is known for hosting one of the world's largest jazz festivals?",
       "options": [
         { "id": 1, "text": "Vancouver" },
         { "id": 2, "text": "Quebec" },
@@ -780,10 +690,7 @@
     },
     {
       "id": 16,
-      "textQuestion": {
-        "id": 16,
-        "text": "Which large Canadian national park is located in the northern part of the country and is known for its polar bears?"
-      },
+      "textQuestion": "Which large Canadian national park is located in the northern part of the country and is known for its polar bears?",
       "options": [
         { "id": 1, "text": "Banff National Park" },
         { "id": 2, "text": "Jasper National Park" },
