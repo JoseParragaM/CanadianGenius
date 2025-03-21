@@ -3,7 +3,7 @@ let minutes = 0;
 let hours = 0;
 let interval;
 let questions = []; 
-let qNumber = 1; 
+let qNumber = 1;
 
 const timeEle = document.getElementById("time");
 
@@ -32,66 +32,65 @@ function Initiate() {
     }
 }
 
-window.onload = Initiate;
+window.onload = function() {
+    Initiate();
 
-document.addEventListener("DOMContentLoaded", function() {
-    fetch('/data/data.json') 
-        .then(response => response.json())
-        .then(data => {
-            console.log("Fetched data:", data); 
-            if (data && data.history && Array.isArray(data.history)) {
-                questions = data.history; 
-                console.log("Questions loaded:", questions);
-                if (questions.length > 0) {
-                    updateQuestion(); 
-                    enableButtons(); 
-                } 
-            }
-        })
+    let chosenQuestions = JSON.parse(localStorage.getItem('chosenQuestions')) || [];
 
-    const nextButton = document.getElementById("Next");
-    const prevButton = document.getElementById("Previous");
-    const finishButton = document.getElementById("Finish");
-    const questionTitle = document.getElementById("questionTitle");
-    const optionsList = document.getElementById("optionsList");
-
-    function updateQuestion() {
-        if (questions.length > 0 && qNumber <= questions.length) {
-            const question = questions[qNumber - 1];
-
-            questionTitle.textContent = `Question ${qNumber}: ${question.textQuestion}`;
-
-            optionsList.innerHTML = "";
-
-            question.options.forEach(option => {
-                const li = document.createElement("li");
-                li.innerHTML = `<input type="radio" name="answer" value="${option}"> ${option}`;
-                optionsList.appendChild(li);
-            });
-        }
+    if (chosenQuestions.length > 0) {
+        questions = chosenQuestions;
+        updateQuestion();
+        enableButtons(); 
     }
+};
 
-    function enableButtons() {
-        nextButton.onclick = function() {
-            if (qNumber < questions.length) { 
-                qNumber++;
-                updateQuestion();
-                console.log(`Moved to Question ${qNumber}`);
-            }
-        };
+const nextButton = document.getElementById("Next");
+const prevButton = document.getElementById("Previous");
+const finishButton = document.getElementById("Finish");
+const homeButton = document.getElementById("Home");
+const questionTitle = document.getElementById("questionTitle");
+const optionsList = document.getElementById("optionsList");
 
-        prevButton.onclick = function() {
-            if (qNumber > 1) { 
-                qNumber--;
-                updateQuestion();
-                console.log(`Moved to Question ${qNumber}`);
-            }
-        };
+function updateQuestion() {
+    if (questions.length > 0 && qNumber <= questions.length) {
+        const question = questions[qNumber - 1];
+        console.log(question)
+        questionTitle.textContent = `Question ${qNumber}: ${question.textQuestion}`;
 
-        finishButton.addEventListener('click', function() {
-            if (confirm('Are you sure you want to finish the quiz?')) {
-                window.location.href = 'feedback.html';
-            }
+        optionsList.innerHTML = ""; 
+
+        question.options.forEach(option => {
+            const li = document.createElement("li");
+            li.innerHTML = `<input type="radio" name="answer" value="${option.id}"> ${option.text}`;
+            optionsList.appendChild(li);
         });
     }
-});
+}
+
+function enableButtons() {
+    nextButton.onclick = function() {
+        if (qNumber < questions.length) { 
+            qNumber++;
+            updateQuestion();
+        }
+    };
+
+    prevButton.onclick = function() {
+        if (qNumber > 1) { 
+            qNumber--;
+            updateQuestion();
+        }
+    };
+
+    finishButton.addEventListener('click', function() {
+        if (confirm('Are you sure you want to finish the quiz?')) {
+            window.location.href = 'feedback.html';
+        }
+    });
+
+    homeButton.addEventListener('click', function() {
+        if (confirm('Are you sure you want to go to the Home Page of the quiz?')) {
+            window.location.href = '../index.html';
+        }
+    });
+}
