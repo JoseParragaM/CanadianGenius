@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hexagon Scoreboard</title>
+    <link rel="stylesheet" href="/styles/scoreboardStyle.css">
+    
+</head>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="/scripts/scoreboard-script.js" async defer></script>
+<body>
+    <div class="container">
+        <h1>Scoreboard</h1>
+
+        <!-- Radar Chart -->
+        <div class="chart-container">
+            <canvas id="radarChart" aria-label="Radar chart showing stats for different categories"></canvas>
+        </div>
+
+        <!-- Feedback Section -->
+        <div class="text-container" id="feedbackContainer">
+            <!-- Feedback messages go here -->
+        </div>
+        <!--Adrian Button to the Home page with css-->
+        <a href="/index.html" >
+            <button type="submit" value="Home Page" id="HomePageButton">Home Page</button>
+        </a>
+
+    </div>
+
+</html>
