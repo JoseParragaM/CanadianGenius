@@ -1,11 +1,11 @@
 // Define the key for localStorage
-const STORAGE_KEY = 'userData'; // Cambié el nombre de la key para que sea userData
+const STORAGE_KEY = 'userData'; // I changed the name of the key to userData
 
-let userData = {}; // Variable global para almacenar los datos del usuario
+let userData = {}; // Global variable to store user data
 let lablesCategories = [];
 let scores = []; 
 
-// Cargar datos guardados en localStorage o asignar valores por defecto
+// Load data saved in localStorage or assign default values
 function loadUserData() {
   const stored = localStorage.getItem(STORAGE_KEY);
   if (stored) {
@@ -25,12 +25,12 @@ function getScore(){
  }
 }
 
-// Mensajes personalizados para cada categoría
+// Personalized messages for each category
 const feedbackMessages = {
   Arts: "You enjoy expressing yourself through art. Keep exploring your creativity!",
   History: "History is your strong suit. You are very knowledgeable in the subject!",
   Places: "You love exploring new places. Keep discovering the world!",
-  "Leisure time": "You know how to enjoy your free time. That's very important!",
+  Activities: "You know how to enjoy your free time. That's very important!",
   Sports: "You're an active person and like to stay in shape!",
   Food: "You enjoy good food. Keep exploring new flavors!",
 };
@@ -38,7 +38,7 @@ const feedbackMessages = {
 const MAX_SCORE = 5;
 const THRESHOLD = 0;
 
-// Ejecutamos la carga de datos del usuario
+// We execute the user data loading
 loadUserData();
 getLabelsCategories();
 getScore();
@@ -98,7 +98,7 @@ const radarChart = new Chart(ctx, {
   },
 });
 
-// Mostrar feedback basado en los datos del usuario
+// Display feedback based on user data
 function showFeedback(data, messages) {
   const feedbackContainer = document.getElementById("feedbackContainer");
   feedbackContainer.innerHTML = "";
@@ -118,7 +118,7 @@ function showFeedback(data, messages) {
   }
 }
 
-// Crear un div para el mensaje de feedback
+// Create a div for the feedback message
 function createFeedback(message) {
   const div = document.createElement("div");
   div.className = "feedback";
@@ -126,5 +126,5 @@ function createFeedback(message) {
   return div;
 }
 
-// Mostrar el feedback cuando cargue la página
+// Show feedback when the page loads
 showFeedback(userData, feedbackMessages);

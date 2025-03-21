@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
             places: { score: 0, time: '', userAnswers: [] },
             art: { score: 0, time: '', userAnswers: [] },
             food: { score: 0, time: '', userAnswers: [] },
-            festivalDatesCommonActivities: { score: 0, time: 0, userAnswers: [] },
+            activities: { score: 0, time: '', userAnswers: [] },
         }
     };
 
