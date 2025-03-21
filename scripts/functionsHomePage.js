@@ -39,6 +39,12 @@ document.querySelector('.buttons-category').addEventListener('click', (event) =>
                 optionId: null
             }));
 
+            const questionlist = {
+                category: category,
+                questions: randomQuestions
+            }
+
+            localStorage.setItem('questionlist', JSON.stringify(questionlist));
             localStorage.setItem('userData', JSON.stringify(userData));
             window.location.href = '../templates/quiz.html';
         })

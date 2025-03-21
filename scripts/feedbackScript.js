@@ -1,16 +1,20 @@
-document.addEventListener("DOMContentLoaded", async function () {
+document.addEventListener("DOMContentLoaded", () => {
 
-  addHighlight(0);
+  const userData = JSON.parse(localStorage.getItem('userData'));
 
-  const quizData = await getJosnData('/data/data.json')
-  const userData = await getJosnData('/data/userData.json')
+  const score = userData.answers.history.score;
+  const time = userData.answers.history.time;
+  setScore(score);
+  setTime(time);
+  const percent = culcPercent(score, 5);
+  setPercent(percent);
+  addHighlight(percent);
 
-  applyScore('history', userData);
-  applyTime('history', userData);
+  setQuiz();
 });
 
 
-const addHighlight = (score) => {
+const addHighlight = (percent) => {
   const feedbackItems = document.querySelectorAll('.feedback-item');
 
   // Remove highlight from all items
@@ -18,19 +22,19 @@ const addHighlight = (score) => {
 
   let index;
 
-  if (score >= 100) {
+  if (percent >= 100) {
     index = 0;
-  } else if (score >= 90) {
+  } else if (percent >= 90) {
     index = 1;
-  } else if (score >= 80) {
+  } else if (percent >= 80) {
     index = 2;
-  } else if (score >= 70) {
+  } else if (percent >= 70) {
     index = 3;
-  } else if (score >= 50) {
+  } else if (percent >= 50) {
     index = 4;
-  } else if (score >= 30) {
+  } else if (percent >= 30) {
     index = 5;
-  } else if (score > 0) {
+  } else if (percent > 0) {
     index = 6;
   } else {
     index = 7;
@@ -55,28 +59,57 @@ const getJosnData = async (path) => {
   return data;
 }
 
-const applyScore = (category, userData) => {
-  const score = userData.answers[category].score
+const setScore = (score) => {
   const scoreElement = document.getElementById('score');
   scoreElement.textContent = score;
 }
 
-const applyTime = (category, userData) => {
-  const time = userData.answers[category].time
+const setTime = (time) => {
   const timeElement = document.getElementById('time');
   timeElement.textContent = time;
 }
 
-const applyQuiz = (quizId, correctId, answerId) => {
-  if(correctId === answerId) {
-    const correctElement = document.getElementById(answerId);
-    correctElement.classList.add('correct');
-    timeElement.textContent = timeElement.textContent + " ✅(Correct!)"
-  } else {
-    const correctElement = document.getElementById(answerId);
-    correctElement.classList.add('incorrect');
-    timeElement.textContent = timeElement.textContent + " ❌(Incorrect!)"
-    const answerElement = document.getElementById(correctId);
-    answerElement.classList.add('correct-answer');
-  }
+const culcPercent = (score, total) => {
+  return Math.round(score / total * 100);
 }
+
+const setPercent = (percent) => {
+  const percentElement = document.getElementById('percent');
+  percentElement.textContent = percent;
+}
+
+const setQuiz = () => {
+  const questionlist = JSON.parse(localStorage.getItem('questionlist'));
+  // TODO: Get user data from local storage
+  // const userData = JSON.parse(localStorage.getItem('userData'));
+  const container = document.getElementById("quiz-container");
+
+  if (!container) {
+    console.error("quiz-container not found!");
+    return;
+  }
+
+  const questions = questionlist.questions
+
+  questions.forEach((question, i) => {
+    const section = document.createElement("div");
+    section.classList.add("question-section");
+
+    section.innerHTML = `
+        <h3 class="question-title">Question ${i + 1}</h3>
+        <p class="question-text">${question.textQuestion}</p>
+        <ul class="answer-list">
+            ${question.options.map((option) => `
+                <li class="answer-item ${option.id === question.answer.id ? 'correct' : ''}">
+                    ${option.text} ${option.id === question.answer.id ? '✅ (Correct!)' : ''}
+                </li>
+            `).join("")}
+        </ul>
+        <p class="answer-feedback">${question.explanation.text}</p>
+    `;
+
+    container.appendChild(section);
+  });
+}
+
+
