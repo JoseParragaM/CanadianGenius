@@ -89,7 +89,9 @@ document.addEventListener("DOMContentLoaded", function() {
         };
 
         finishButton.addEventListener('click', function() {
-            window.location.href = 'feedback.html';
+            if (confirm('Are you sure you want to finish the quiz?')) {
+                window.location.href = 'feedback.html';
+            }
         });
     }
 });
