@@ -109,7 +109,26 @@ function enableButtons() {
 
     finishButton.addEventListener("click", function() {
         if (confirm("Are you sure you want to finish the quiz?")) {
-            window.location.href = "feedback.html";
+            finishButton.addEventListener('click', function () {
+                if (confirm('Are you sure you want to finish the quiz?')) {
+                    let userData = JSON.parse(localStorage.getItem('userData'));
+                    let category = localStorage.getItem('chosenCategory');
+                    let chosenQuestions = JSON.parse(localStorage.getItem('chosenQuestions'));
+    
+                    if (userData.answers[category] && userData.answers[category].userAnswers) {
+                        userData.answers[category].userAnswers.forEach(answer => {
+                            let question = chosenQuestions.find(q => q.id === answer.questionId);
+                            if (question && answer.optionId === question.answer.id) {
+                                userData.answers[category].score += 1;
+                            }
+                        });
+                        userData.answers[category].time = `${String(hours).padStart(2, '0')}:${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+                        localStorage.setItem('userData', JSON.stringify(userData));
+                    }
+    
+                    window.location.href = 'feedback.html';
+                }
+            });
         }
     });
 
