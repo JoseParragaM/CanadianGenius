@@ -19,8 +19,8 @@
     </thead>
     <tbody>
       <tr class="score-row">
-        <td class="score-data">15 minutes</td>
-        <td class="score-data"><span class="score-value">4</span> out of 5 (<span class="score-value">80%</span>)</td>
+        <td class="score-data" id="time">15 minutes</td>
+        <td class="score-data"><span class="score-value" id="score">4</span> out of 5 (<span class="score-value">80%</span>)</td>
       </tr>
     </tbody>
   </table>
@@ -99,9 +99,11 @@
 
   <footer class="page-footer">
     <div class="nav-buttons">
-      <button onclick="" class="nav-button">Home</button>
-      <button onclick="" class="nav-button">Scoreboard</button>
+      <button onclick="goHome()" class="nav-button">Home</button>
+      <button onclick="goToScoreboard()" class="nav-button">Scoreboard</button>
     </div>
   </footer>
+
+  <script src="/scripts/feedbackScript.js"></script>
 </body>
 </html>
