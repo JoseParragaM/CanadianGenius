@@ -71,6 +71,12 @@ body.quiz-page {
   text-align: center;
 }
 
+.name-error {
+  color: red; 
+  display: none; 
+  font-size: 18px;
+}
+
 .buttons-category-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
