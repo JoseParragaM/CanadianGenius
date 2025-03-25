@@ -9,9 +9,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const score = userData.answers[category].score;
   const time = userData.answers[category].time;
+
+  setPlayerName(userData.name);
   setScore(score);
   setTime(time);
+
   const percent = culcPercent(score, 5);
+
   setPercent(percent);
   addHighlight(percent);
 
@@ -48,6 +52,11 @@ const getJsonData = async (path) => {
     console.error("Error fetching JSON:", error);
   }
 };
+
+const setPlayerName = (name) => {
+  const playerName = name || "Player";
+  document.getElementById('player-name').textContent = playerName;
+}
 
 const setScore = (score) => {
   document.getElementById('score').textContent = score;

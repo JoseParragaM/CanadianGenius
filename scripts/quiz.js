@@ -19,7 +19,7 @@ function timeRefresh() {
     timeEle.textContent = numbers;
 }
 
-function Initiate() {
+function initiate() {
     if (!interval) {
         interval = setInterval(() => {
             seconds++;
@@ -37,7 +37,8 @@ function Initiate() {
 }
 
 window.onload = function () {
-    Initiate();
+    initiate();
+    setPlayerName();
 
     let chosenQuestions = JSON.parse(localStorage.getItem("chosenQuestions")) || [];
 
@@ -52,13 +53,15 @@ const nextButton = document.getElementById("Next");
 const prevButton = document.getElementById("Previous");
 const finishButton = document.getElementById("Finish");
 const homeButton = document.getElementById("Home");
+const questionNo = document.getElementById("questionNo");
 const questionTitle = document.getElementById("questionTitle");
 const optionsList = document.getElementById("optionsList");
 
 function updateQuestion() {
     if (questions.length > 0 && qNumber <= questions.length) {
         const question = questions[qNumber - 1];
-        questionTitle.textContent = `Question ${qNumber}: ${question.textQuestion}`;
+        questionNo.textContent = `Question ${qNumber}:`;
+        questionTitle.textContent = `${question.textQuestion}`;
 
         optionsList.innerHTML = "";
 
@@ -96,6 +99,9 @@ function enableButtons() {
     nextButton.onclick = function () {
         if (qNumber < questions.length) {
             qNumber++;
+            if(qNumber === questions.length) {
+                nextButton.style.display = "none";
+            }
             updateQuestion();
         }
     };
@@ -103,6 +109,9 @@ function enableButtons() {
     prevButton.onclick = function () {
         if (qNumber > 1) {
             qNumber--;
+            if(qNumber < questions.length) {
+                nextButton.style.display = "block";
+            }
             updateQuestion();
         }
     };
@@ -133,4 +142,11 @@ function enableButtons() {
             window.location.href = "../index.html";
         }
     });
+}
+
+function setPlayerName() {
+    const userName = document.getElementById("player-name");
+    if (userName) {
+        userName.textContent = userName.textContent + userData.name;
+    }
 }
