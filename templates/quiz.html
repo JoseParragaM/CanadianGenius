@@ -9,32 +9,36 @@
 </head>
 
 <body class="quiz-page">
-  <h1 class="page-title">Canada Genius</h1>
-  <div class="intro-container">
-    <p class="player-name" id="Username">Name of the player</p>
-    <p class="quiz-description">Explore Canada through quizzes!</p>
-  </div>
-  <div class="timer-container">
-    <span id="time">00:00:00</span>
-  </div>
-
-  <h2 class="question-title" id="questionTitle"></h2>
-  <div class="question-section">
-    <ul class="option-list" id="optionsList">
-    </ul>
-  </div>
-
-  <footer class="quiz-footer">
-    <div class="button-group-left">
-      <button class="footer-btn" type="button" id="Home">Home</button>
-      <button class="footer-btn" type="button" id="Previous">Previous</button>
+  <div class="quiz-container">
+    <h1 class="page-title">Canada Genius</h1>
+    <div class="intro-container">
+      <p class="player-name" id="player-name">Name of the player: </p>
+      <p class="quiz-description">Explore Canada through quizzes!</p>
     </div>
-    <div class="button-group-right">
-      <button class="footer-btn" type="btton" id="Next">Next</button>
-      <button class="footer-btn footer-btn-fin" type="button" id="Finish">Finish</button>
+    <div class="timer-container">
+      <span id="time">00:00:00</span>
     </div>
-  </footer>
 
+    <div class="question-container">
+      <h2 class="question-no" id="questionNo"></h2>
+      <h3 class="question-title" id="questionTitle"></h3>
+    </div>
+    <div class="question-section">
+      <ul class="option-list" id="optionsList">
+      </ul>
+    </div>
+
+    <footer class="quiz-footer">
+      <div class="button-group-left">
+        <button class="footer-btn" type="button" id="Home">Home</button>
+        <button class="footer-btn" type="button" id="Previous">Previous</button>
+      </div>
+      <div class="button-group-right">
+        <button class="footer-btn" type="btton" id="Next">Next</button>
+        <button class="footer-btn footer-btn-fin" type="button" id="Finish">Finish</button>
+      </div>
+    </footer>
+  </div>
   <script src="/scripts/quiz.js"></script>
 </body>
 
