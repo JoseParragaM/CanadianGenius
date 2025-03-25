@@ -20,12 +20,12 @@ table.score-table {
   margin: 20px auto;
   border-collapse: collapse;
   background: #ffffff;
+  border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 th.table-header, td.score-data {
   padding: 10px;
-  border: 1px solid #dddddd;
   text-align: center;
 }
 
@@ -34,13 +34,21 @@ th.table-header {
   color: #ffffff;
 }
 
+.score-table th:first-child {
+  border-top-left-radius: 5px;
+}
+
+.score-table th:last-child {
+  border-top-right-radius: 5px;
+}
+
 ul.feedback-list {
   padding: 15px;
   background: #ffffff;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   list-style: none;
-  width: 50%;
+  width: 60%;
   margin: 20px auto;
 }
 
@@ -116,9 +124,10 @@ p.answer-feedback.incorrect-feedback {
 }
 
 .page-footer {
-  margin-top: 20px;
+  width: 60%;
+  margin: 20px auto;
   padding: 20px;
-  text-align: right;
+  text-align: center;
 }
 
 .nav-buttons {
@@ -126,7 +135,7 @@ p.answer-feedback.incorrect-feedback {
 }
 
 .nav-button {
-  background-color: #ff0000;
+  background-color: #005aff;
   color: white;
   border: none;
   padding: 10px 20px;
@@ -137,5 +146,5 @@ p.answer-feedback.incorrect-feedback {
 }
 
 .nav-button:hover {
-  background-color: #cc0000;
+  background-color: #011f5b;
 }
