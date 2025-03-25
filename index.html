@@ -1,35 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Canadian Genius</title>
-    <link rel="icon" type="image/x-icon" href="/media/favicon.ico" />
-    <link rel="stylesheet" href="styles/styleHomePage.css" />
-  </head>
-  <body>
-    <div>
-      <input
-        type="text"
-        id="name-input"
-        name="Put your name"
-        placeholder="Put Your name"
-        required
-      />
-      <p id="name-error" style="color: red; display: none">
-        Please, put a name first.
-      </p>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Canadian Genius</title>
+  <link rel="icon" type="image/x-icon" href="/media/favicon.ico" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="styles/styleHomePage.css" />
+</head>
+
+<body class="quiz-page">
+  <div class="home-container">
+    <div class="top-bar">
+      <button class="scoreboard-button">
+        <i class="fas fa-trophy"></i> Scoreboard
+      </button>
     </div>
-    <button class="scoreboard-button">Scoreboard</button>
+
     <img src="/media/logo.jpeg" alt="Logo" class="logo" />
-    <div class="buttons-category">
-      <button id="history">History</button>
-      <button id="food">Food</button>
-      <button id="sports">Sports</button>
-      <button id="places">Places</button>
-      <button id="art">Art</button>
-      <button id="activities">Activities</button>
+
+    <div class="name-input-group">
+      <label for="name-input">Enter your name:</label>
+      <input type="text" id="name-input" name="Put your name" placeholder="Your name" required />
     </div>
-    <script src="scripts/functionsHomePage.js"></script>
-  </body>
+    <p id="name-error" style="color: red; display: none; font-size: 18px;">
+      Please, put a name first.
+    </p>
+
+    <div class="buttons-category-grid">
+      <div class="category-card history">
+        <i class="fas fa-landmark"></i>
+        <h3>History</h3>
+        <button id="history">Start</button>
+      </div>
+      <div class="category-card food">
+        <i class="fas fa-utensils"></i>
+        <h3>Food</h3>
+        <button id="food">Start</button>
+      </div>
+      <div class="category-card sports">
+        <i class="fas fa-football-ball"></i>
+        <h3>Sports</h3>
+        <button id="sports">Start</button>
+      </div>
+      <div class="category-card places">
+        <i class="fas fa-map-marker-alt"></i>
+        <h3>Places</h3>
+        <button id="places">Start</button>
+      </div>
+      <div class="category-card art">
+        <i class="fas fa-paint-brush"></i>
+        <h3>Art</h3>
+        <button id="art">Start</button>
+      </div>
+      <div class="category-card activities">
+        <i class="fas fa-hiking"></i>
+        <h3>Activities</h3>
+        <button id="activities">Start</button>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="scripts/functionsHomePage.js"></script>
+
+</body>
 </html>
