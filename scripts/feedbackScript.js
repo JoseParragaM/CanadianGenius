@@ -90,40 +90,42 @@ const setQuiz = () => {
 
   questions.forEach((question, i) => {
     const userAnswer = getUserAnswer(question.id);
-    const isCorrect = userAnswer && userAnswer.optionId === question.answer.id;
+    if (userAnswer.optionId) {
+      const isCorrect = userAnswer && userAnswer.optionId === question.answer.id;
 
-    const section = document.createElement("div");
-    section.classList.add("question-section");
+      const section = document.createElement("div");
+      section.classList.add("question-section");
 
-    section.innerHTML = `
+      section.innerHTML = `
       <h3 class="question-title">Question ${i + 1}</h3>
       <p class="question-text">${question.textQuestion}</p>
       <ul class="answer-list">
         ${question.options.map(option => {
-          let result = "";
-          if (userAnswer?.optionId === option.id) {
-            result = option.id === question.answer.id ? " ✅ (Correct!)" : " ❌ (Incorrect!)";
-          }
+        let result = "";
+        if (userAnswer?.optionId === option.id) {
+          result = option.id === question.answer.id ? " ✅ (Correct!)" : " ❌ (Incorrect!)";
+        }
 
-          let className = "";
-          if (option.id === question.answer.id) {
-            className = "correct-answer";
-          }
-          if (userAnswer?.optionId === option.id) {
-            className = option.id === question.answer.id ? "correct" : "incorrect";
-          }
+        let className = "";
+        if (option.id === question.answer.id) {
+          className = "correct-answer";
+        }
+        if (userAnswer?.optionId === option.id) {
+          className = option.id === question.answer.id ? "correct" : "incorrect";
+        }
 
-          return `<li class="answer-item ${className}">
+        return `<li class="answer-item ${className}">
             ${option.text} ${result}
           </li>`;
-        }).join("")}
+      }).join("")}
       </ul>
       <p class="answer-feedback ${isCorrect ? '' : 'incorrect-feedback'}">
         ${question.explanation.text}
       </p>
     `;
 
-    container.appendChild(section);
+      container.appendChild(section);
+    }
   });
 };
 
