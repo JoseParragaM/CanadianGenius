@@ -90,8 +90,21 @@ function updateQuestion() {
                 }
 
                 localStorage.setItem("userData", JSON.stringify(userData));
+
+            
             });
         });
+
+        displayprevbutton()
+    }
+}
+
+function displayprevbutton(){
+    if(qNumber !== 1) {
+        prevButton.style.display = "inline";
+    } else 
+    {
+        prevButton.style.display = "none";
     }
 }
 
