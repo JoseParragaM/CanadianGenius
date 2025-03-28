@@ -52,8 +52,8 @@ const radarChart = new Chart(ctx, {
       {
         label: "Stats",
         data: scores,
-        backgroundColor: "rgba(215, 215, 221, 0.5)",
-        borderColor: "rgb(197, 34, 34)",
+        backgroundColor: "rgba(255, 255, 255, 0.5)",
+        borderColor: "rgb(34, 140, 197)",
         borderWidth: 2,
         pointBackgroundColor: "rgb(0, 0, 0)",
         pointBorderColor: "#fff",
