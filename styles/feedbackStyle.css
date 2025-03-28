@@ -1,6 +1,7 @@
 body.feedback-page {
   font-family: Arial, sans-serif;
-  background-color: #f8f9fa;
+  background: url('/media/background3.jpeg') no-repeat center center fixed;
+  background-size: cover;
   color: #333333;
   margin: 0;
   padding: 20px;
@@ -8,7 +9,7 @@ body.feedback-page {
 
 h1.page-title, h2.feedback-title {
   text-align: center;
-  color: #333333;
+  color: #e0f7fa;
 }
 
 .score-value {
