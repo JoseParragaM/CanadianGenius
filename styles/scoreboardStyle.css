@@ -37,9 +37,10 @@ body {
   justify-content: center;
   padding: 20px;
   background-color: #ffffff;
-  border-radius: 10px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  box-shadow: 0 0px 10px rgba(0, 0, 0, 0.1);
   padding: 15px;
+  height: 40px;
 }
 
 canvas {
@@ -64,11 +65,6 @@ h1 {
 
 .feedback:last-child {
   margin-bottom: 0;
-}
-
-#feedbackContainer {
-  border-radius: 50px;
-  height: 40px;
 }
 
 #HomePageButton {

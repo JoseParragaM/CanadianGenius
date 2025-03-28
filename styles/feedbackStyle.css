@@ -7,9 +7,29 @@ body.feedback-page {
   padding: 20px;
 }
 
+.feedback-container {
+  width: 60%;
+  margin: 0 auto;
+  padding: 15px;
+  background: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo-container {
+  display: flex;
+  width: 50%;
+}
+
+.logo {
+  font-size: xx-large;
+  margin: 10px 0 10px 10px;
+  color: #ff0000;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
 h1.page-title, h2.feedback-title {
   text-align: center;
-  color: #e0f7fa;
 }
 
 .score-value {
