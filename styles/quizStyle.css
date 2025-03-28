@@ -16,9 +16,16 @@ body.quiz-page {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.page-title {
-  text-align: left;
+.logo-container {
+  display: flex;
+  width: 50%;
+}
+
+.logo {
+  font-size: xx-large;
+  margin: 10px 0 10px 10px;
   color: #ff0000;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .question-container {
@@ -38,6 +45,10 @@ h3.question-title {
   color: #333333;
 }
 
+.intro-container {
+  margin-left: 10px;
+}
+
 .timer-container {
   background: #333333;
   color: #FFD700;
@@ -50,6 +61,7 @@ h3.question-title {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   letter-spacing: 2px;
   text-align: center;
+  margin-left: 10px;
 }
 
 .question-section {
