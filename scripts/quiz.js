@@ -146,7 +146,7 @@ function enableButtons() {
                 localStorage.setItem('userData', JSON.stringify(userData));
             }
 
-            window.location.href = 'feedback.html';
+            window.location.href = '../templates/feedback.html';
         }
     });
 
