@@ -41,7 +41,7 @@ const addHighlight = (percent) => {
 };
 
 const goHome = () => window.location.href = '../index.html';
-const goToScoreboard = () => window.location.href = 'scoreboard.html';
+const goToScoreboard = () => window.location.href = '../templates/scoreboard.html';
 
 const getJsonData = async (path) => {
   try {
