@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const category = event.target.id;
         if (!category) return;
 
-        fetch("../data/data.json")
+        fetch("https://raw.githubusercontent.com/JoseParragaM/CanadianGenius/refs/heads/main/data/data.json")
             .then((response) => response.json())
             .then((data) => {
                 const questions = data[category];
@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 userData.answers[category].time = "";
 
                 localStorage.setItem("userData", JSON.stringify(userData));
-                window.location.href = "../templates/quiz.html";
+                window.location.href = "../templates/quiz/index.html";
             })
             .catch((error) => console.error("Error al cargar las preguntas:", error));
     }
@@ -68,6 +68,6 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     document.querySelector(".scoreboard-button").addEventListener("click", () => {
-        window.location.href = "../templates/scoreboard.html";
+        window.location.href = "../templates/scoreboard/index.html";
     });
 });

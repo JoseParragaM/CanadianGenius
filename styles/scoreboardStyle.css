@@ -7,7 +7,7 @@ body {
   font-family: "Arial", sans-serif;
   margin: 0;
   padding: 20px;
-  background: url('../media/background4.jpeg') no-repeat center center fixed;
+  background: url('https://raw.githubusercontent.com/JoseParragaM/CanadianGenius/refs/heads/main/media/background4.jpeg') no-repeat center center fixed;
   background-size: cover;
 }
 

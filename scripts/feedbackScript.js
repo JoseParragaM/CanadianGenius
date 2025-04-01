@@ -40,8 +40,8 @@ const addHighlight = (percent) => {
   feedbackItems[index]?.classList.add('highlight');
 };
 
-const goHome = () => window.location.href = '../index.html';
-const goToScoreboard = () => window.location.href = '../templates/scoreboard.html';
+const goHome = () => window.location.href = '../../index.html';
+const goToScoreboard = () => window.location.href = '../scoreboard/index.html';
 
 const getJsonData = async (path) => {
   try {

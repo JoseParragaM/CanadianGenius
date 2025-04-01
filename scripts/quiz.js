@@ -146,13 +146,13 @@ function enableButtons() {
                 localStorage.setItem('userData', JSON.stringify(userData));
             }
 
-            window.location.href = '../templates/feedback.html';
+            window.location.href = '../feedback/index.html';
         }
     });
-
+s
     homeButton.addEventListener("click", function () {
         if (confirm("Are you sure you want to go to the Home Page of the quiz?")) {
-            window.location.href = "../index.html";
+            window.location.href = "../../index.html";
         }
     });
 }
