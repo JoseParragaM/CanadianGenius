@@ -40,7 +40,6 @@ const THRESHOLD = 0;
 loadUserData();
 getLabelsCategories();
 getScore();
-console.log(userData)
 // Radar chart configuration
 const ctx = document.getElementById("radarChart").getContext("2d");
 
