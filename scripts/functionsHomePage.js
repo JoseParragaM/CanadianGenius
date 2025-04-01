@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 userData.answers[category].time = "";
 
                 localStorage.setItem("userData", JSON.stringify(userData));
-                window.location.href = "../templates/quiz/index.html";
+                window.location.href = "./templates/quiz/index.html";
             })
             .catch((error) => console.error("Error al cargar las preguntas:", error));
     }
@@ -68,6 +68,6 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     document.querySelector(".scoreboard-button").addEventListener("click", () => {
-        window.location.href = "../templates/scoreboard/index.html";
+        window.location.href = "./templates/scoreboard/index.html";
     });
 });
